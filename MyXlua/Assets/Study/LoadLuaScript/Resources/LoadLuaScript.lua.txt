@@ -1,0 +1,1 @@
+print('LoadLuaScript C# Call Lua')

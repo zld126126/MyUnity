@@ -1,0 +1,13 @@
+print(CS.UnityEngine.Time.deltaTime)
+ 
+CS.UnityEngine.Time.timeScale = 0.5
+ 
+local gameObject = CS.UnityEngine.GameObject
+ 
+local camera = gameObject.Find("Main Camera")
+ 
+camera.name = "update by lua"
+
+local normalCamera = gameObject.Find("Camera")
+
+gameObject.Destroy(normalCamera)

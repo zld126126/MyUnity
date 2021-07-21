@@ -1,0 +1,3 @@
+特殊说明:
+[zip中] ILRuntime文件夹和Unity插件ILRuntime一样
+所以装了插件就可以删除这个Demo中的ILRuntime
