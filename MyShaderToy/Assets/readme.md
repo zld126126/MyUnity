@@ -153,6 +153,104 @@ _Texture ("Texture", 2D) = "white" {}
 >    Parallax Specular = 600<br/>
 
 #### 3.3 Shader本体<br/>
-> TODO:...<br/>
-> https://onevcat.com/2013/07/shader-tutorial-1<br/>
+```Unity
+CGPROGRAM
+// Physically based Standard lighting model, and enable shadows on all light types
+#pragma surface surf Standard fullforwardshadows
+
+// Use shader model 3.0 target, to get nicer looking lighting
+#pragma target 3.0
+
+sampler2D _MainTex;
+
+struct Input
+{
+    float2 uv_MainTex;
+};
+
+half _Glossiness;
+half _Metallic;
+fixed4 _Color;
+
+// Add instancing support for this shader. You need to check 'Enable Instancing' on materials that use the shader.
+// See https://docs.unity3d.com/Manual/GPUInstancing.html for more information about instancing.
+// #pragma instancing_options assumeuniformscaling
+UNITY_INSTANCING_BUFFER_START(Props)
+// put more per-instance properties here
+UNITY_INSTANCING_BUFFER_END(Props)
+
+void surf (Input IN, inout SurfaceOutputStandard o)
+{
+    // Albedo comes from a texture tinted by color
+    fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
+    o.Albedo = c.rgb;
+    // Metallic and smoothness come from slider variables
+    o.Metallic = _Metallic;
+    o.Smoothness = _Glossiness;
+    o.Alpha = c.a;
+}
+ENDCG
+```
+> 逐行定义:<br/>
+```
+CGPROGRAM
+```
+> 开始CG程序<br/>
+```
+ENDCG
+```
+> 结束CG程序<br/>
+```
+#pragma surface surf Lambert
+```
+> surface - 声明的是一个表面着色器<br/>
+> surfaceFunction - 着色器代码的方法的名字<br/>
+> lightModel - 使用的光照模型。<br/>
+
+```
+#pragma target 3.0
+```
+> target 3.0 --> 用什么Lighting<br/>
+```
+sampler2D _MainTex;
+```
+> 对于这段CG程序，要想访问在Properties中所定义的变量的话，必须使用和之前变量相同的名字进行声明。于是其实sampler2D _MainTex;做的事情就是再次声明并链接了_MainTex，使得接下来的CG程序能够使用这个变量。<br/>
+```
+struct Input
+{
+    float2 uv_MainTex;
+};
+```
+> 接下来是一个struct结构体。相信大家对于结构体已经很熟悉了，我们先跳过之，直接看下面的的surf函数。上面的#pragma段已经指出了我们的着色器代码的方法的名字叫做surf，那没跑儿了，就是这段代码是我们的着色器的工作核心。<br/>
+```
+half _Glossiness;
+half _Metallic;
+fixed4 _Color;
+```
+> 其实没什么魔法，float和vec都可以在之后加入一个2到4的数字，来表示被打包在一起的2到4个同类型数。<br/>
+```
+struct SurfaceOutput {
+    half3 Albedo;     //像素的颜色
+    half3 Normal;     //像素的法向值
+    half3 Emission;   //像素的发散颜色
+    half Specular;    //像素的镜面高光
+    half Gloss;       //像素的发光强度
+    half Alpha;       //像素的透明度
+};
+```
+> 第一个是Input，我们已经明白了：在计算输出时Shader会多次调用surf函数，每次给入一个贴图上的点坐标，来计算输出。第二个参数是一个可写的SurfaceOutput，SurfaceOutput是预定义的输出结构，我们的surf函数的目标就是根据输入把这个输出结构填上。<br/>
+
+> 这里的half和我们常见float与double类似，都表示浮点数，只不过精度不一样。也许你很熟悉单精度浮点数（float或者single）和双精度浮点数（double），这里的half指的是半精度浮点数，精度最低，运算性能相对比高精度浮点数高一些，因此被大量使用。<br/>
+
+ > 在例子中，我们做的事情非常简单：<br/>
+```
+fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
+o.Albedo = c.rgb;
+o.Metallic = _Metallic;
+o.Smoothness = _Glossiness;
+o.Alpha = c.a;
+```
+> 这里用到了一个tex2d函数，这是CG程序中用来在一张贴图中对一个点进行采样的方法，返回一个float4。这里对_MainTex在输入点上进行了采样，并将其颜色的rbg值赋予了输出的像素颜色，将a值赋予透明度。于是，着色器就明白了应当怎样工作：即找到贴图上对应的uv点，直接使用颜色信息来进行着色，over。<br/>
+
+> TODO:未完待续...
 
