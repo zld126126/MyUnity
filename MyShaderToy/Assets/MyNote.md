@@ -110,10 +110,10 @@ _MainTex ("Albedo (RGB)", 2D) = "white" {}
 > <br/>
 > 如下:<br/>
 ```Unity
-	//Define a color with a default value of semi-transparent blue
-	_MainColor ("Main Color", Color) = (0,0,1,0.5)
-	//Define a texture with a default of white
-	_Texture ("Texture", 2D) = "white" {}
+//Define a color with a default value of semi-transparent blue
+_MainColor ("Main Color", Color) = (0,0,1,0.5)
+//Define a texture with a default of white
+_Texture ("Texture", 2D) = "white" {}
 ```
 
 ##### 3.1.5 Tags<br/> 
