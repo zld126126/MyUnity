@@ -135,7 +135,7 @@ _Texture ("Texture", 2D) = "white" {}
 > <br/>
 > 这些预定义的值本质上是一组定义整数，Background = 1000， Geometry = 2000, AlphaTest = 2450， Transparent = 3000，最后Overlay = 4000。在我们实际设置Queue值时，不仅能使用上面的几个预定义值，我们也可以指定自己的Queue值，写成类似这样："Queue"="Transparent+100"，表示一个在Transparent之后100的Queue上进行调用。<br/>
 
-##### 3.2 LOD<br/>
+#### 3.2 LOD<br/>
 > LOD很简单，它是Level of Detail的缩写，在这里例子里我们指定了其为200（其实这是Unity的内建Diffuse着色器的设定值）。<br/>
 
 > 调整根据设备图形性能来调整画质时可以进行比较精确的控制:<br/>
@@ -148,7 +148,7 @@ _Texture ("Texture", 2D) = "white" {}
 >    Parallax = 500<br/>
 >    Parallax Specular = 600<br/>
 
-##### 3.3 Shader本体<br/>
+#### 3.3 Shader本体<br/>
 > TODO:...<br/>
 > https://onevcat.com/2013/07/shader-tutorial-1<br/>
 
