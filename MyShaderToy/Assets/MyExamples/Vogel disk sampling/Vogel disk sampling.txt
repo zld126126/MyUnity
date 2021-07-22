@@ -1,0 +1,27 @@
+// https://www.shadertoy.com/view/4l3yRM
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    const int numSamples = 128;
+    float rotationSpeed = -0.2;
+
+    vec2 center = iResolution.xy / 2.0;
+    float diskRadius = 150.0;
+    float pointSize = 2.5;
+    vec3 color = vec3(0.10, 0.10, 0.13);
+    
+    for (int i = 0; i < numSamples; i++)
+    {
+        // Calculate Vogel disk sample
+        float theta = 2.4 * float(i) + iTime * -0.2;
+        float r = sqrt(float(i) + 0.5) / sqrt(float(numSamples));
+        vec2 u = r * vec2(cos(theta), sin(theta));
+        vec2 pos = center + u * diskRadius;
+        
+        // Blend color
+        float alpha = smoothstep(pointSize + 1.0, pointSize - 1.0, length(fragCoord - pos));
+        float shade = 0.5 * (1.0 - r) + 0.5;
+        color = mix(color, vec3(shade, shade, shade), alpha);
+    }
+    
+    fragColor = vec4(color, 1.0);
+}
