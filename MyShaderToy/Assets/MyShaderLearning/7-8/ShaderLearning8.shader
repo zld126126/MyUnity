@@ -1,6 +1,4 @@
-﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
-Shader "Custom/ShaderLearning8"
+﻿Shader "Custom/ShaderLearning8"
 {	
 	Properties{
 		_Color ("Color", Color) = (1,1,1,1)
