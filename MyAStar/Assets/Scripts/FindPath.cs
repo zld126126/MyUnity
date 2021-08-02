@@ -48,8 +48,14 @@ public class FindPath : MonoBehaviour {
 				// 如果是墙或者已经在关闭列表中
 				if (item.isWall || closeSet.Contains (item))
 					continue;
+
+				int gCost = curNode.gCost;
+				int hCost = getDistanceNodes (curNode, item);
 				// 计算当前相领节点现开始节点距离
-				int newCost = curNode.gCost + getDistanceNodes (curNode, item);
+				int newCost = gCost + hCost;
+				string desc = "f:"+newCost.ToString()+"g:"+gCost.ToString()+"h:"+hCost.ToString();
+				// 打印消耗
+				Debug.Log(desc);
 				// 如果距离更小，或者原来不在开始列表中
 				if (newCost < item.gCost || !openSet.Contains (item)) {
 					// 更新与开始节点的距离
