@@ -8,6 +8,7 @@ MyAStar
     - [1.搜索区域](#1搜索区域)
     - [2.计算路径](#2计算路径)
     - [3.代码方案](#3代码方案)
+  - [其他:](#其他)
 
 ## 官方地址:
     https://www.cnblogs.com/yangyxd/articles/5447889.html
@@ -71,5 +72,8 @@ private function diagonal(node:Node):Number
         1.1 A星寻路
         1.2 获取两个节点距离
         1.3 生成路径(辅助)
-        
+
     3.物体移动类(辅助)
+
+## 其他:
+    示例图片见Resources文件夹中的"AStar".Png    
