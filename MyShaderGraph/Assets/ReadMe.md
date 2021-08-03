@@ -1,4 +1,8 @@
-## °²×°×¼±¸(unity2018)
-	window->package manager->°²×°scriptablebuildpipeline²å¼ş
-	window->package manager->°²×°shadergraph²å¼ş
-	window->package manager->°²×°lightweight rp²å¼ş
+## å®‰è£…å‡†å¤‡(unity2018)
+	window->package manager->å®‰è£…scriptablebuildpipelineæ’ä»¶
+	window->package manager->å®‰è£…shadergraphæ’ä»¶
+	window->package manager->å®‰è£…lightweight rpæ’ä»¶
+
+## å‚è€ƒèµ„æ–™
+	https://zhuanlan.zhihu.com/p/35735895
+	https://blog.csdn.net/linxinfa/article/details/108049048
