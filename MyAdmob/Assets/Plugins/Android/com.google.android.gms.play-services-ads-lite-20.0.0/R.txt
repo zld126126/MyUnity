@@ -1,0 +1,8 @@
+int attr adSize 0x00000000
+int attr adSizes 0x00000000
+int attr adUnitId 0x00000000
+int style Theme_IAPTheme 0x00000000
+int[] styleable AdsAttrs { 0x00000000, 0x00000000, 0x00000000 }
+int styleable AdsAttrs_adSize 0
+int styleable AdsAttrs_adSizes 1
+int styleable AdsAttrs_adUnitId 2
