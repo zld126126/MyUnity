@@ -1,5 +1,8 @@
 # My ml-agents
-> unity2019.4.25f1 && python 3.6.1 <br/>
+项目安装需求:
+
+    unity2019.4.25f1 <br/>
+    python 3.6.1 <br/>
 https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md#advanced-local-installation-for-development
 
     参考网址:
@@ -11,6 +14,7 @@ https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md#a
     - [1.2 Install the com.unity.ml-agents Unity package](#12-install-the-comunityml-agents-unity-package)
     - [1.3 Install the com.unity.ml-agents.extensions Unity package (Optional)](#13-install-the-comunityml-agentsextensions-unity-package-optional)
     - [1.4 Install the mlagents Python package](#14-install-the-mlagents-python-package)
+    - [1.5 pip project](#15-pip-project)
   - [2.运行步骤:](#2运行步骤)
     - [2.1 unity2019.4打开ml-agents/Project文件夹](#21-unity20194打开ml-agentsproject文件夹)
     - [2.2 选择菜单Edit > Project Settings > Player](#22-选择菜单edit--project-settings--player)
@@ -42,10 +46,13 @@ https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md#a
 
     pip3 install torch -f https://download.pytorch.org/whl/torch_stable.html
 
-    需要到git下载的目录/ml-agents下执行
-    pip3 install -e ./ml-agents
-    需要到git下载的目录/ml-agents-envs下执行
-    pip3 install -e ./ml-agents-envs
+### 1.5 pip project 
+    /ml-agents/ml-agents 执行如下:
+    pip3 install . 
+    
+    /ml-agents/ml-agents-envs 执行如下:
+    pip3 install .     
+    
     
 ## 2.运行步骤:
 ### 2.1 unity2019.4打开ml-agents/Project文件夹
@@ -57,6 +64,8 @@ https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md#a
     mlagents-learn
 
 ### 3.2 测试3DBall:
-    mlagents-learn config/ppo/3DBall.yaml --run-id=3DBall --train
+    第一次运行
+    mlagents-learn /config/ppo/3DBall.yaml --run-id=3DBall --train
 
-    mlagents-learn config/ppo/3DBall.yaml --run-id=3DBall --train --force
+    第二次运行
+    mlagents-learn /config/ppo/3DBall.yaml --run-id=3DBall --resume
