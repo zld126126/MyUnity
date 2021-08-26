@@ -1,5 +1,5 @@
 # My ml-agents
-> unity2019.4 && python 3.6.1 <br/>
+> unity2019.4.25f1 && python 3.6.1 <br/>
 https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md#advanced-local-installation-for-development
 
     参考网址:
