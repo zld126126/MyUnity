@@ -24,7 +24,7 @@ namespace MySDK_Admob
 
         #region SDK初始化
         // groups 是admob配置信息 -- testDevicesIds 是测试设备id(可以传空list) -- isDebug 是否是测试模式
-        public void StartUp(Dictionary<AdmobGroupType, AdmobGroup[]> groups, List<string> testDevicesIds, bool isDebug = false)
+        public void Setup(bool isDebug = false)
         {
             Debug.Log("enter into: StartUp , isDebug: " + isDebug);
             // 设置debug
@@ -35,15 +35,15 @@ namespace MySDK_Admob
             }
 
             // 初始化 admob 配置
-            AdmobConfig.instance.StartUp(groups);
+            SDKSettings.instance.Setup();
 
             // 需要测试的设备id(真实环境)
-            if (testDevicesIds.Count > 0)
+            if (SDKSettings.instance.GetTestDevices().Count > 0)
             {
                 RequestConfiguration requestConfiguration =
                 new RequestConfiguration.Builder()
                 .SetTagForChildDirectedTreatment(TagForChildDirectedTreatment.Unspecified)
-                .SetTestDeviceIds(testDevicesIds).build();
+                .SetTestDeviceIds(SDKSettings.instance.GetTestDevices()).build();
                 MobileAds.SetRequestConfiguration(requestConfiguration);
             }
 

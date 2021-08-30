@@ -21,32 +21,7 @@ namespace MySDK_Admob_Test
         void Start()
         {
             // 初始化sdk
-            MySDK_Admob.SDKManager.instance.StartUp(GetGroups(), GetDevicesIds(), true);
-        }
-
-        // 获取admob配置组
-        Dictionary<AdmobGroupType, AdmobGroup[]> GetGroups()
-        {
-            Dictionary<AdmobGroupType, AdmobGroup[]> groups = new Dictionary<AdmobGroupType, AdmobGroup[]>();
-            AdmobGroup[] admobGroup_BannerView = new AdmobGroup[] {
-                new AdmobGroup("AdmobTest", AdmobGroupPlatform.Andriod, "ca-app-pub-3940256099942544/6300978111", AdmobGroupType.BannerView),
-                new AdmobGroup("AdmobTest", AdmobGroupPlatform.IOS, "ca-app-pub-3940256099942544/2934735716", AdmobGroupType.BannerView),
-                new AdmobGroup("AdmobTest", AdmobGroupPlatform.Unexpected, "unexpected_platform", AdmobGroupType.BannerView),
-            };
-            AdmobGroup[] admobGroup_InterstitialAd = new AdmobGroup[] {
-                new AdmobGroup("AdmobTest", AdmobGroupPlatform.Andriod, "ca-app-pub-3940256099942544/1033173712", AdmobGroupType.InterstitialAd),
-                new AdmobGroup("AdmobTest", AdmobGroupPlatform.IOS, "ca-app-pub-3940256099942544/4411468910", AdmobGroupType.InterstitialAd),
-                new AdmobGroup("AdmobTest", AdmobGroupPlatform.Unexpected, "unexpected_platform", AdmobGroupType.InterstitialAd),
-            };
-            AdmobGroup[] admobGroup_RewardedAd = new AdmobGroup[] {
-                new AdmobGroup("AdmobTest", AdmobGroupPlatform.Andriod, "ca-app-pub-3940256099942544/5224354917", AdmobGroupType.RewardedAd),
-                new AdmobGroup("AdmobTest", AdmobGroupPlatform.IOS, "ca-app-pub-3940256099942544/1712485313", AdmobGroupType.RewardedAd),
-                new AdmobGroup("AdmobTest", AdmobGroupPlatform.Unexpected, "unexpected_platform", AdmobGroupType.RewardedAd),
-            };
-            groups.Add(AdmobGroupType.BannerView, admobGroup_BannerView);
-            groups.Add(AdmobGroupType.InterstitialAd, admobGroup_InterstitialAd);
-            groups.Add(AdmobGroupType.RewardedAd, admobGroup_RewardedAd);
-            return groups;
+            MySDK_Admob.SDKManager.instance.Setup(true);
         }
 
         // 获取测试设备id
@@ -66,7 +41,7 @@ namespace MySDK_Admob_Test
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
             {
-                string adUnitId = MySDK_Admob.AdmobConfig.instance.GetAdUnitId(MySDK_Admob.AdmobGroupType.BannerView);
+                string adUnitId = MySDK_Admob.SDKSettings.instance.GetAdUnitId(MySDK_Admob.AdmobType.BannerView);
                 if (this.bannerView != null)
                 {
                     MySDK_Admob.SDKManager.instance.DestroyBannerAd(this.bannerView);
@@ -99,7 +74,7 @@ namespace MySDK_Admob_Test
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
             {
-                string adUnitId = MySDK_Admob.AdmobConfig.instance.GetAdUnitId(MySDK_Admob.AdmobGroupType.InterstitialAd);
+                string adUnitId = MySDK_Admob.SDKSettings.instance.GetAdUnitId(MySDK_Admob.AdmobType.InterstitialAd);
                 if (this.interstitialAd != null)
                 {
                     MySDK_Admob.SDKManager.instance.DestroyInterstitialAd(this.interstitialAd);
@@ -141,7 +116,7 @@ namespace MySDK_Admob_Test
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
             {
-                string adUnitId = MySDK_Admob.AdmobConfig.instance.GetAdUnitId(MySDK_Admob.AdmobGroupType.RewardedAd);
+                string adUnitId = MySDK_Admob.SDKSettings.instance.GetAdUnitId(MySDK_Admob.AdmobType.RewardedAd);
                 if (this.rewardedAd != null)
                 {
                     this.rewardedAd = null;
@@ -182,7 +157,7 @@ namespace MySDK_Admob_Test
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
             {
-                string adUnitId = MySDK_Admob.AdmobConfig.instance.GetAdUnitId(MySDK_Admob.AdmobGroupType.RewardedAd);
+                string adUnitId = MySDK_Admob.SDKSettings.instance.GetAdUnitId(MySDK_Admob.AdmobType.RewardedAd);
 
                 if (this.rewardedAdMulti1 != null)
                 {
@@ -226,7 +201,7 @@ namespace MySDK_Admob_Test
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
             {
-                string adUnitId = MySDK_Admob.AdmobConfig.instance.GetAdUnitId(MySDK_Admob.AdmobGroupType.RewardedAd);
+                string adUnitId = MySDK_Admob.SDKSettings.instance.GetAdUnitId(MySDK_Admob.AdmobType.RewardedAd);
 
                 if (this.rewardedAdPreload1 != null)
                 {
@@ -245,7 +220,7 @@ namespace MySDK_Admob_Test
 
         private void HandleRewardedAdClosed(object sender, EventArgs args)
         {
-            string adUnitId = MySDK_Admob.AdmobConfig.instance.GetAdUnitId(MySDK_Admob.AdmobGroupType.RewardedAd);
+            string adUnitId = MySDK_Admob.SDKSettings.instance.GetAdUnitId(MySDK_Admob.AdmobType.RewardedAd);
 
             if (this.rewardedAdPreload2 != null)
             {
