@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49192f851f96dad469bc2b479f70b67e, type: 3}
+  m_Name: AdmobAsset
+  m_EditorClassIdentifier: 
+  Andriod_Banner:
+    AdmobADCompany: 
+    Platform: 1
+    AdUnitId: ca-app-pub-3940256099942544/6300978111
+    Type: 1
+  Andriod_Interstitial:
+    AdmobADCompany: 
+    Platform: 1
+    AdUnitId: ca-app-pub-3940256099942544/1033173712
+    Type: 2
+  Andriod_Rewarded:
+    AdmobADCompany: 
+    Platform: 1
+    AdUnitId: ca-app-pub-3940256099942544/5224354917
+    Type: 3
+  IOS_Banner:
+    AdmobADCompany: 
+    Platform: 2
+    AdUnitId: ca-app-pub-3940256099942544/2934735716
+    Type: 1
+  IOS_Interstitial:
+    AdmobADCompany: 
+    Platform: 2
+    AdUnitId: ca-app-pub-3940256099942544/4411468910
+    Type: 2
+  IOS_Rewarded:
+    AdmobADCompany: 
+    Platform: 2
+    AdUnitId: ca-app-pub-3940256099942544/1712485313
+    Type: 3
+  testDevices:
+  - 4EB1000D0350CEB429EDF581F975B45E
+  - CE56E5DDD15A526E9313E8AA42CDF257
