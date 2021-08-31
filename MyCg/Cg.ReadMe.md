@@ -82,7 +82,7 @@
     cgc -h
 
 2.VS插件 
-    
+
     VS2012:
         NShader:
             http://nshader.codeplex.com/
@@ -92,6 +92,9 @@
         HLSL Tools For Visual Studio
         GLSL Language integration
         Shader Unity Support(UnityShaderLab)
+
+        环境配置见
+            VS2017_CG配置.docx
 
     
 

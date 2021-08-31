@@ -1,0 +1,14 @@
+struct output
+{
+    float4 position: POSITION;
+    float4 color: COLOR;
+};
+
+output vs_main(float4 position: POSITION,float4 color: COLOR,uniform float4x4 MVP){
+    output OUT;
+
+    OUT.position = mul(MVP, position);
+    OUT.color = position;
+
+    return OUT;
+}
