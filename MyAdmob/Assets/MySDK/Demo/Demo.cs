@@ -8,14 +8,38 @@ namespace MySDK_Admob_Test
 {
     public class Demo : MonoBehaviour
     {
+        /// <summary>
+        /// 是否首次展示
+        /// </summary>
         private bool FirstShow = false;
 
+        /// <summary>
+        /// 横幅广告
+        /// </summary>
         private BannerView bannerView;
+        /// <summary>
+        /// 插页广告
+        /// </summary>
         private InterstitialAd interstitialAd;
+        /// <summary>
+        /// 激励广告
+        /// </summary>
         private RewardedAd rewardedAd;
+        /// <summary>
+        /// 预加载激励广告1
+        /// </summary>
         private RewardedAd rewardedAdPreload1;
+        /// <summary>
+        /// 预加载激励广告2
+        /// </summary>
         private RewardedAd rewardedAdPreload2;
+        /// <summary>
+        /// 多个激励广告1
+        /// </summary>
         private RewardedAd rewardedAdMulti1;
+        /// <summary>
+        /// 多个激励广告2
+        /// </summary>
         private RewardedAd rewardedAdMulti2;
 
         void Start()
@@ -24,19 +48,10 @@ namespace MySDK_Admob_Test
             MySDK_Admob.SDKManager.instance.Setup(true);
         }
 
-        // 获取测试设备id
-        List<string> GetDevicesIds()
-        {
-            List<string> deviceIds = new List<string>();
-            // 逍遥虚拟机
-            deviceIds.Add("4EB1000D0350CEB429EDF581F975B45E");
-            // 小米手机(K30)
-            deviceIds.Add("CE56E5DDD15A526E9313E8AA42CDF257");
-            return deviceIds;
-        }
-
         #region BANNER ADS
-
+        /// <summary>
+        /// 请求横幅广告
+        /// </summary>
         public void RequestBannerAd()
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
@@ -61,6 +76,9 @@ namespace MySDK_Admob_Test
             }
         }
 
+        /// <summary>
+        /// 销毁横幅广告
+        /// </summary>
         public void DestroyBannerAd()
         {
             MySDK_Admob.SDKManager.instance.DestroyBannerAd(this.bannerView);
@@ -70,6 +88,9 @@ namespace MySDK_Admob_Test
 
         #region INTERSTITIAL ADS
 
+        /// <summary>
+        /// 请求插页广告
+        /// </summary>
         public void RequestInterstitialAd()
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
@@ -96,6 +117,9 @@ namespace MySDK_Admob_Test
             }
         }
 
+        /// <summary>
+        /// 展示插页广告
+        /// </summary>
         public void ShowInterstitialAd()
         {
             if (this.interstitialAd != null)
@@ -104,6 +128,9 @@ namespace MySDK_Admob_Test
             }
         }
 
+        /// <summary>
+        /// 销毁插页广告
+        /// </summary>
         public void DestroyInterstitialAd()
         {
             MySDK_Admob.SDKManager.instance.DestroyInterstitialAd(this.interstitialAd);
@@ -111,7 +138,9 @@ namespace MySDK_Admob_Test
         #endregion
 
         #region REWARDED ADS
-
+        /// <summary>
+        /// 请求激励广告
+        /// </summary>
         public void RequestRewardedAd()
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
@@ -143,16 +172,25 @@ namespace MySDK_Admob_Test
             }
         }
 
+        /// <summary>
+        /// 展示激励广告
+        /// </summary>
         public void ShowRewardedAd()
         {
             MySDK_Admob.SDKManager.instance.ShowRewardedAd(this.rewardedAd);
         }
 
+        /// <summary>
+        /// 销毁激励广告
+        /// </summary>
         public void DestroyRewardedAd()
         {
             MySDK_Admob.SDKManager.instance.DestroyRewardedAd(this.rewardedAd);
         }
 
+        /// <summary>
+        /// 请求多个激励广告
+        /// </summary>
         public void RequestRewardedAdMulti()
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
@@ -174,29 +212,38 @@ namespace MySDK_Admob_Test
                 if (this.rewardedAdMulti1 == null)
                 {
                     this.rewardedAdMulti1 = MySDK_Admob.SDKManager.instance.CreateRewardedAd(adUnitId);
-                    MySDK_Admob.SDKManager.instance.ShowRewardedAd(this.rewardedAdMulti1);
+                    MySDK_Admob.SDKManager.instance.RequestRewardedAd(this.rewardedAdMulti1);
                 }
 
                 if (this.rewardedAdMulti2 == null)
                 {
                     this.rewardedAdMulti2 = MySDK_Admob.SDKManager.instance.CreateRewardedAd(adUnitId);
-                    MySDK_Admob.SDKManager.instance.ShowRewardedAd(this.rewardedAdMulti2);
+                    MySDK_Admob.SDKManager.instance.RequestRewardedAd(this.rewardedAdMulti2);
                 }
             }
         }
 
+        /// <summary>
+        /// 展示多个激励广告
+        /// </summary>
         public void ShowRewardedAdMulti()
         {
             MySDK_Admob.SDKManager.instance.ShowRewardedAd(this.rewardedAdMulti1);
             MySDK_Admob.SDKManager.instance.ShowRewardedAd(this.rewardedAdMulti2);
         }
 
+        /// <summary>
+        /// 销毁多个激励广告
+        /// </summary>
         public void DestroyRewardedAdMulti()
         {
             MySDK_Admob.SDKManager.instance.DestroyRewardedAd(this.rewardedAdMulti1);
             MySDK_Admob.SDKManager.instance.DestroyRewardedAd(this.rewardedAdMulti2);
         }
 
+        /// <summary>
+        /// 预加载激励广告
+        /// </summary>
         public void RequestRewardedAdPreload()
         {
             if (MySDK_Admob.SDKManager.instance.IsReady())
@@ -212,12 +259,17 @@ namespace MySDK_Admob_Test
                 if (this.rewardedAdPreload1 == null)
                 {
                     this.rewardedAdPreload1 = MySDK_Admob.SDKManager.instance.CreateRewardedAd(adUnitId);
-                    MySDK_Admob.SDKManager.instance.ShowRewardedAd(this.rewardedAdPreload1);
+                    MySDK_Admob.SDKManager.instance.RequestRewardedAd(this.rewardedAdPreload1);
                     this.rewardedAdPreload1.OnAdClosed += HandleRewardedAdClosed;
                 }
             }
         }
 
+        /// <summary>
+        /// 预加载激励广告 - 辅助方法
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         private void HandleRewardedAdClosed(object sender, EventArgs args)
         {
             string adUnitId = MySDK_Admob.SDKSettings.instance.GetAdUnitId(MySDK_Admob.AdmobType.RewardedAd);
@@ -231,20 +283,29 @@ namespace MySDK_Admob_Test
             if (this.rewardedAdPreload2 == null)
             {
                 this.rewardedAdPreload2 = MySDK_Admob.SDKManager.instance.CreateRewardedAd(adUnitId);
-                MySDK_Admob.SDKManager.instance.ShowRewardedAd(this.rewardedAdPreload2);
+                MySDK_Admob.SDKManager.instance.RequestRewardedAd(this.rewardedAdPreload2);
             }
         }
 
+        /// <summary>
+        /// 展示预加载激励广告1
+        /// </summary>
         public void ShowRewardedAdPreload()
         {
             MySDK_Admob.SDKManager.instance.ShowRewardedAd(this.rewardedAdPreload1);
         }
 
+        /// <summary>
+        /// 展示预加载激励广告2
+        /// </summary>
         public void ShowRewardedAdPreload2()
         {
             MySDK_Admob.SDKManager.instance.ShowRewardedAd(this.rewardedAdPreload2);
         }
 
+        /// <summary>
+        /// 销毁预加载激励广告1和2
+        /// </summary>
         public void DestroyRewardedAdPreload()
         {
             MySDK_Admob.SDKManager.instance.DestroyRewardedAd(this.rewardedAdPreload1);
@@ -265,6 +326,9 @@ namespace MySDK_Admob_Test
             }
         }
 
+        /// <summary>
+        /// 关闭App
+        /// </summary>
         public void QuitApp() {
             #if UNITY_EDITOR
                         UnityEditor.EditorApplication.isPlaying = false;

@@ -6,15 +6,36 @@ using UnityEngine;
 
 namespace MySDK_Admob
 {
-    // SDK 管理器
+    /// <summary>
+    /// SDK 管理器
+    /// </summary>
     public class SDKManager : Singleton<SDKManager>
     {
+        /// <summary>
+        /// init完成
+        /// </summary>
         private bool InitComplate = false;
+        /// <summary>
+        /// 是否调试模式
+        /// </summary>
         private bool IsDebug = false;
+        /// <summary>
+        /// 横幅广告组
+        /// </summary>
         private List<BannerView> bannerViewList = new List<BannerView>();
+        /// <summary>
+        /// 插页广告组
+        /// </summary>
         private List<InterstitialAd> interstitialAdList = new List<InterstitialAd>();
+        /// <summary>
+        /// 激励广告组
+        /// </summary>
         private List<RewardedAd> rewardedAdList = new List<RewardedAd>();
 
+        /// <summary>
+        /// 是否初始化完成
+        /// </summary>
+        /// <returns></returns>
         public bool IsReady()
         {
             return this.InitComplate;
@@ -23,7 +44,10 @@ namespace MySDK_Admob
         public override void Dispose() { }
 
         #region SDK初始化
-        // groups 是admob配置信息 -- testDevicesIds 是测试设备id(可以传空list) -- isDebug 是否是测试模式
+        /// <summary>
+        /// admob初始化 -- isDebug 是否是测试模式
+        /// </summary>
+        /// <param name="isDebug"></param>
         public void Setup(bool isDebug = false)
         {
             Debug.Log("enter into: StartUp , isDebug: " + isDebug);
@@ -51,7 +75,10 @@ namespace MySDK_Admob
             MobileAds.Initialize(HandleInitCompleteAction);
         }
 
-        // Google提供封装init方法
+        /// <summary>
+        /// Google提供封装init方法
+        /// </summary>
+        /// <param name="initstatus"></param>
         private void HandleInitCompleteAction(InitializationStatus initstatus)
         {
             Dictionary<string, AdapterStatus> map = initstatus.getAdapterStatusMap();
@@ -80,15 +107,26 @@ namespace MySDK_Admob
         }
         #endregion
 
+        /// <summary>
+        /// 创建广告Request
+        /// </summary>
+        /// <returns></returns>
         private AdRequest CreateAdRequest()
         {
             return new AdRequest.Builder().Build();
         }
 
         #region BANNER ADS 横幅广告
-        /** 
+        /*** 
          * https://developers.google.com/admob/unity/banner
          **/
+        /// <summary>
+        /// 创建横幅广告
+        /// </summary>
+        /// <param name="adUnitId"></param>
+        /// <param name="adSize"></param>
+        /// <param name="adPosition"></param>
+        /// <returns></returns>
         public BannerView CreateBannerAd(string adUnitId, AdSize adSize, AdPosition adPosition = AdPosition.Top)
         {
             if (!this.InitComplate)
@@ -101,6 +139,14 @@ namespace MySDK_Admob
             return bannerView;
         }
 
+        /// <summary>
+        /// 创建横幅广告
+        /// </summary>
+        /// <param name="adUnitId"></param>
+        /// <param name="adSize"></param>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public BannerView CreateBannerAd(string adUnitId, AdSize adSize, int x, int y)
         {
             if (!this.InitComplate)
@@ -113,6 +159,10 @@ namespace MySDK_Admob
             return bannerView;
         }
 
+        /// <summary>
+        /// 请求横幅广告
+        /// </summary>
+        /// <param name="bannerView"></param>
         public void RequestBannerAd(BannerView bannerView)
         {
             if (!this.InitComplate)
@@ -126,6 +176,10 @@ namespace MySDK_Admob
             }
         }
 
+        /// <summary>
+        /// 销毁横幅广告
+        /// </summary>
+        /// <param name="bannerView"></param>
         public void DestroyBannerAd(BannerView bannerView)
         {
             if (bannerView != null)
@@ -134,6 +188,9 @@ namespace MySDK_Admob
             }
         }
 
+        /// <summary>
+        /// 清除所有横幅广告
+        /// </summary>
         public void ClearBannerAd()
         {
             for (int i = 0; i < this.bannerViewList.Count; i++)
@@ -150,7 +207,7 @@ namespace MySDK_Admob
         #endregion
 
         #region INTERSTITIAL ADS 插页式广告
-        /**
+        /***
          * https://developers.google.com/admob/unity/interstitial
          * 特殊说明(必看):
             插页式广告应在应用流程的自然停顿期间进行展示，例如游戏的不同关卡之间或用户完成一项任务之后，都是非常不错的展示时机。要展示插页式广告，请使用 isLoaded() 方法验证广告是否已完成加载，然后调用 show()。
@@ -165,7 +222,11 @@ namespace MySDK_Admob
             }
          * 
          **/
-
+        /// <summary>
+        /// 创建插页广告
+        /// </summary>
+        /// <param name="adUnitId"></param>
+        /// <returns></returns>
         public InterstitialAd CreateInterstitialAd(string adUnitId)
         {
             if (!this.InitComplate)
@@ -178,6 +239,10 @@ namespace MySDK_Admob
             return interstitialAd;
         }
 
+        /// <summary>
+        /// 请求插页广告
+        /// </summary>
+        /// <param name="interstitialAd"></param>
         public void RequestInterstitialAd(InterstitialAd interstitialAd)
         {
             if (!this.InitComplate)
@@ -190,6 +255,10 @@ namespace MySDK_Admob
             }
         }
 
+        /// <summary>
+        /// 展示插页广告
+        /// </summary>
+        /// <param name="interstitialAd"></param>
         public void ShowInterstitialAd(InterstitialAd interstitialAd)
         {
             if (interstitialAd.IsLoaded())
@@ -202,6 +271,10 @@ namespace MySDK_Admob
             }
         }
 
+        /// <summary>
+        /// 销毁插页广告
+        /// </summary>
+        /// <param name="interstitialAd"></param>
         public void DestroyInterstitialAd(InterstitialAd interstitialAd)
         {
             if (interstitialAd != null)
@@ -210,6 +283,9 @@ namespace MySDK_Admob
             }
         }
 
+        /// <summary>
+        /// 清除所有插页广告
+        /// </summary>
         public void ClearInterstitialAd()
         {
             for (int i = 0; i < this.interstitialAdList.Count; i++)
@@ -225,6 +301,11 @@ namespace MySDK_Admob
         #endregion
 
         #region REWARDED ADS 激励广告
+        /// <summary>
+        /// 创建激励广告
+        /// </summary>
+        /// <param name="adUnitId"></param>
+        /// <returns></returns>
         public RewardedAd CreateRewardedAd(string adUnitId)
         {
             if (!this.InitComplate)
@@ -237,6 +318,10 @@ namespace MySDK_Admob
             return rewardedAd;
         }
 
+        /// <summary>
+        /// 请求激励广告
+        /// </summary>
+        /// <param name="rewardedAd"></param>
         public void RequestRewardedAd(RewardedAd rewardedAd)
         {
             if (!this.InitComplate)
@@ -250,6 +335,10 @@ namespace MySDK_Admob
             }
         }
 
+        /// <summary>
+        /// 展示激励广告
+        /// </summary>
+        /// <param name="rewardedAd"></param>
         public void ShowRewardedAd(RewardedAd rewardedAd)
         {
             if (rewardedAd != null)
@@ -265,6 +354,10 @@ namespace MySDK_Admob
             }
         }
 
+        /// <summary>
+        /// 销毁激励广告
+        /// </summary>
+        /// <param name="rewardedAd"></param>
         public void DestroyRewardedAd(RewardedAd rewardedAd)
         {
             if (rewardedAd != null)
@@ -273,6 +366,9 @@ namespace MySDK_Admob
             }
         }
 
+        /// <summary>
+        /// 清除所有激励广告
+        /// </summary>
         public void ClearRewardedAd()
         {
             for (int i = 0; i < this.rewardedAdList.Count; i++)
@@ -289,7 +385,7 @@ namespace MySDK_Admob
         #endregion
 
         #region [[REWARDED ADS 激励广告]] -- Register Event 注册事件 默认只打印加载失败情况
-        /**
+        /***
          * Banner && Interstitial
          * https://developers.google.com/admob/unity/interstitial
          * https://developers.google.com/admob/unity/banner
@@ -333,11 +429,21 @@ namespace MySDK_Admob
             使用 OnAdClosed 预加载下一个激励广告RewardedAd 是一次性对象。这意味着，在展示激励广告后，就不能再用该对象加载另一个广告了。要请求另一个激励广告，您需要创建新的 RewardedAd 对象。
             最佳做法是在 OnAdClosed 广告事件中加载另一个激励广告，以便在上一个激励广告关闭后，立即开始加载下一个激励广告：
          **/
+        /// <summary>
+        /// 广告加载成功事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         public void HandleAdLoaded(object sender, EventArgs args)
         {
             Debug.Log("HandleAdLoaded event received");
         }
 
+        /// <summary>
+        /// 广告加载失败事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         public void HandleAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
         {
             Debug.Log(
@@ -348,11 +454,21 @@ namespace MySDK_Admob
             Debug.Log("HandleAdFailedToLoad ErrorCode" + code.ToString());
         }
 
+        /// <summary>
+        /// 广告打开事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         public void HandleAdOpening(object sender, EventArgs args)
         {
             Debug.Log("HandleAdOpening event received");
         }
 
+        /// <summary>
+        /// 广告支付事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         public void HandlePaidEvent(object sender, AdValueEventArgs args)
         {
             Debug.Log(
@@ -360,11 +476,21 @@ namespace MySDK_Admob
                                  + args.ToString());
         }
 
+        /// <summary>
+        /// 广告关闭事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         public void HandleAdClosed(object sender, EventArgs args)
         {
             Debug.Log("HandleAdClosed event received");
         }
 
+        /// <summary>
+        /// 广告展示失败事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         public void HandleAdFailedToShow(object sender, AdErrorEventArgs args)
         {
             Debug.Log(
@@ -372,10 +498,20 @@ namespace MySDK_Admob
                                  + args.ToString());
         }
 
+        /// <summary>
+        /// HandleAdDidRecordImpression
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         public void HandleAdDidRecordImpression(object sender, EventArgs args) {
             Debug.Log("HandleAdDidRecordImpression event received");
         }
 
+        /// <summary>
+        /// 激励广告获得奖励事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         public void HandleUserEarnedReward(object sender, Reward args)
         {
             string type = args.Type;
@@ -386,7 +522,13 @@ namespace MySDK_Admob
         }
         #endregion
 
-        // 参考Google提供的广告加载错误日志方法 https://developers.google.com/admob/unity/ad-load-errors
+        /// <summary>
+        /// 参考Google提供的广告加载错误日志方法 
+        /// https://developers.google.com/admob/unity/ad-load-errors
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public int GetErrorCode(object sender, AdFailedToLoadEventArgs args)
         {
             LoadAdError loadAdError = args.LoadAdError;
