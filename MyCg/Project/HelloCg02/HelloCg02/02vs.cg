@@ -1,0 +1,52 @@
+uniform float3 LightPosition;
+//光源位置
+uniform float3 eyePosition;
+//相机位置
+uniform float3 I;
+//光强度
+uniform float3 Ka;
+//环境光反射系数
+uniform float3 Kd;
+//漫反射系数
+uniform float3 Ks;
+//镜面反射系数
+uniform float shininess;
+//n幂次
+struct output {
+	float4 position : POSITION;
+	float4 color     : COLOR;
+};
+
+output vs_main( float4 position:POSITION,
+    float3 normal:NORMAL,
+    // 在相机坐标系中计算，所以要用到ModelView变换矩阵
+    uniform float4x4 MV, 
+    // ModelViewProjection变换矩阵
+    uniform float4x4 MVP ) {
+	
+    output OUT;
+	OUT.position = mul(MVP, position);
+	float3 N = normalize(mul(MV, float4(normal,0.0)) ).xyz;
+	//转换法线到相机坐标系
+	float3 P = mul(MV, position).xyz;
+	//转换物体顶点到相机坐标系
+	float3 L = normalize(LightPosition - P);
+	float NdotL = max(dot(N,L),0);
+	//判断法线和入射光线的角度是否大于90度
+	float3 ambient = Ka * I;
+	//环境反射
+	float3 diffuse = Kd * I * NdotL;
+	//漫反射
+	float3 V = normalize(eyePosition - P);
+	float3 H = normalize(L+V);
+	//half vector
+	float NdotH = pow(max(dot(N,H), 0), shininess);
+	if(NdotL<=0) NdotH = 0.0;
+	float3 specular = Ks*I*NdotH;
+	//镜面反射
+	float3 color = ambient + diffuse +specular;
+	//所有成分相加
+	OUT.color.xyz= color;
+	OUT.color.w = 1.0;
+	return OUT;
+}
