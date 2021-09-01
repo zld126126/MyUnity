@@ -35,12 +35,21 @@ namespace MySDK_Admob
     /// </summary>
     public class SDKSettings : Singleton<SDKSettings>
     {
+        /// <summary>
+        /// SDK 配置组
+        /// </summary>
         private List<AdmobConfig> configs = new List<AdmobConfig>();
+        /// <summary>
+        /// AdmobAsset
+        /// </summary>
         private AdmobAsset _config = null;
-        private List<string> testDevices = new List<string>();
+        /// <summary>
+        /// 测试设备ID
+        /// </summary>
+        private List<string> testDeviceIds = new List<string>();
 
         /// <summary>
-        /// Asset设置
+        /// 设置SDK
         /// </summary>
         private void SetConfig()
         {
@@ -76,9 +85,9 @@ namespace MySDK_Admob
                     configs.Add(_config.IOS_Rewarded);
                 }
 
-                if (_config.testDevices.Count > 0)
+                if (_config.testDeviceIds.Count > 0)
                 {
-                    testDevices = _config.testDevices;
+                    testDeviceIds = _config.testDeviceIds;
                 }
 
                 Debug.Log("admob config finish : group length == " + configs.Count);
@@ -107,7 +116,7 @@ namespace MySDK_Admob
         /// <returns></returns>
         public List<string> GetTestDevices()
         {
-            return testDevices;
+            return testDeviceIds;
         }
 
         /// <summary>
