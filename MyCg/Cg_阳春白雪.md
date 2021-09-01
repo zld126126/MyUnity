@@ -36,6 +36,10 @@
       - [3.14cg关键字](#314cg关键字)
       - [3.15cg入口函数:](#315cg入口函数)
       - [3.16cg标准函数库:](#316cg标准函数库)
+    - [4.cg例子-HelloCg TODO:](#4cg例子-hellocg-todo)
+      - [4.1 hello cg 01](#41-hello-cg-01)
+      - [4.2 hello cg 02 TODO](#42-hello-cg-02-todo)
+    - [TODO 更多的CG例子](#todo-更多的cg例子)
 
 ## 几何阶段
 ### Object Space To World Space - 模型坐标控件 到 世界坐标系空间
@@ -310,3 +314,12 @@
     4. 偏导数函数 (Derivative Functions) 
     5. 调试函数 (Debugging Function) 
     
+### 4.cg例子-HelloCg TODO:
+    参考例子:
+    https://blog.csdn.net/zhangci226/article/details/5540100
+#### 4.1 hello cg 01
+    https://github.com/zld126126/MyUnity/tree/main/MyCg/Project/HelloCg01
+#### 4.2 hello cg 02 TODO
+    https://github.com/zld126126/MyUnity/tree/main/MyCg/Project/HelloCg02
+
+### TODO 更多的CG例子
