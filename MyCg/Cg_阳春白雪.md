@@ -306,14 +306,22 @@
     }
 
 #### 3.16cg标准函数库:
-    见CG函数图文件夹
+    1. 数学函数(Mathematical Functions)
+![数学函数](https://github.com/zld126126/MyUnity/blob/main/MyCg/Image/01.png)
 
-    1. 数学函数（ Mathematical Functions ） 
     2. 几何函数 (Geometric Functions) 
+![几何函数](https://github.com/zld126126/MyUnity/blob/main/MyCg/Image/02.png)
+
     3. 纹理映射函数 (Texture Map Functions) 
+![纹理映射函数](https://github.com/zld126126/MyUnity/blob/main/MyCg/Image/03.png)
+
     4. 偏导数函数 (Derivative Functions) 
+![偏导数函数](https://github.com/zld126126/MyUnity/blob/main/MyCg/Image/04.png)
+
     5. 调试函数 (Debugging Function) 
-    
+![调试函数](https://github.com/zld126126/MyUnity/blob/main/MyCg/Image/05.png)
+
+   
 ### 4.cg例子-HelloCg TODO:
     参考例子:
     https://blog.csdn.net/zhangci226/article/details/5540100
