@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" designImage="ui://lw2d8ik4wx5310">
+  <displayList>
+    <image id="n5_wx53" name="BG" src="wx5312" pkg="lw2d8ik4" xy="0,0" size="1600,900"/>
+    <image id="n4_wx53" name="MainTitle" src="wx5311" pkg="lw2d8ik4" xy="276,-90" size="959,529"/>
+    <component id="n0_wx53" name="Btn_StartGame" src="wx534" pkg="lkufxxcr" xy="635,356">
+      <Button title="开始游戏" icon="ui://lw2d8ik4wx5315"/>
+    </component>
+    <component id="n1_wx53" name="Btn_Help" src="wx534" pkg="lkufxxcr" xy="637,484">
+      <Button title="游戏帮助" icon="ui://lw2d8ik4wx5316"/>
+    </component>
+    <component id="n2_wx53" name="Btn_Set" src="wx534" pkg="lkufxxcr" xy="634,616">
+      <Button title="游戏设置" icon="ui://lw2d8ik4wx5313"/>
+    </component>
+    <component id="n3_wx53" name="Btn_ExitGame" src="wx534" pkg="lkufxxcr" xy="635,748">
+      <Button title="退出游戏" icon="ui://lw2d8ik4wx5314"/>
+    </component>
+    <component id="n6_wx53" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" hideByEditor="true" touchable="false"/>
+    <graph id="n7_wx53" name="WhiteMask" xy="0,0" size="1600,900" hideByEditor="true" touchable="false" type="rect"/>
+    <text id="n8_yxvb" name="Version" xy="1131,241" size="180,60" fontSize="40" color="#ff9900" autoSize="none" strokeColor="#666666" singleLine="true" text="测试版本"/>
+  </displayList>
+  <transition name="WhiteMaskAnim">
+    <item time="0" type="Alpha" target="n7_wx53" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+</component>

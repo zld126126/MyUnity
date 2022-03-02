@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8qy49acx" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="fx2l0" name="Main.xml" path="/" exported="true"/>
+    <component id="fx2l1" name="GuideMessage.xml" path="/"/>
+  </resources>
+  <publish name="Panel_Hunter"/>
+</packageDescription>

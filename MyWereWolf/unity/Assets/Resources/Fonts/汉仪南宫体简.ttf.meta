@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 01635726f5acd3744a79c37f600711a6
+timeCreated: 1520735875
+licenseType: Pro
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HYNanGongJ
+  fontNames:
+  - HYNanGongJ
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

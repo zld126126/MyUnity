@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,176">
+  <displayList>
+    <movieclip id="n0_wx53" name="Anim_Eye" src="tahkq" pkg="lk3j63su" xy="0,0" size="300,176" playing="false"/>
+  </displayList>
+  <transition name="Show">
+    <item time="0" type="Alpha" target="n0_wx53" tween="true" startValue="0" endValue="1" duration="18"/>
+  </transition>
+</component>

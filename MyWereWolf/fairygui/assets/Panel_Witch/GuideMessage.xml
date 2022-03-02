@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="805,104">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="2"/>
+  <displayList>
+    <text id="n3_fx2l" name="GuideMessage" xy="0,0" size="805,104" font="汉仪南宫体简" fontSize="100" color="#00ff00" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="[color=#FFFF00]您要毒杀的玩家是[/color]">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearText controller="c1" pages="0,1,2,3" values="女巫请睁眼|[color=#FFFF00]今晚死亡的玩家是[/color]|[color=#FFFF00]您要毒杀的玩家是[/color]|女巫请闭眼"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,DayBreaking,1,DyingMessage_Safe,2,DyingMessage_DyingOne,3,DyingMessage_DyingTwo,4,Execute,5,Lastwords,6,GameOverVillagers,7,GameOverWolf,8,GetingDark" selected="1"/>
+  <displayList>
+    <image id="n4_wq4b" name="BG" src="wq4bn" pkg="lk3j63su" xy="0,0" size="1600,900">
+      <gearDisplay controller="c1" pages="1,2,3,4,5,6,7"/>
+    </image>
+    <component id="n1_gdse" name="GuideMessage" src="gdse1" xy="149,154">
+      <gearDisplay controller="c1" pages="0,1,2,3,4,5,6,7"/>
+      <gearXY controller="c1" pages="1,2,3,4" values="149,154|154,170|167,159|118,8" default="149,251"/>
+    </component>
+    <component id="n3_wq4b" name="Btn_Return" src="wx534" pkg="lkufxxcr" xy="1258,37">
+      <gearDisplay controller="c1" pages="1,2,3,4,5,6,7"/>
+      <Button title="结束游戏" icon="ui://lk3j63suwx533"/>
+    </component>
+    <component id="n5_wq4b" name="n5" src="wx533" pkg="lkufxxcr" xy="416,323" group="n17_wq4b">
+      <Button title="1"/>
+    </component>
+    <component id="n6_wq4b" name="n6" src="wx533" pkg="lkufxxcr" xy="621,320" group="n17_wq4b">
+      <Button title="2"/>
+    </component>
+    <component id="n7_wq4b" name="n7" src="wx533" pkg="lkufxxcr" xy="814,324" group="n17_wq4b">
+      <Button title="3"/>
+    </component>
+    <component id="n8_wq4b" name="n8" src="wx533" pkg="lkufxxcr" xy="1016,326" group="n17_wq4b">
+      <Button title="4"/>
+    </component>
+    <component id="n9_wq4b" name="n9" src="wx533" pkg="lkufxxcr" xy="414,471" group="n17_wq4b">
+      <Button title="5"/>
+    </component>
+    <component id="n10_wq4b" name="n10" src="wx533" pkg="lkufxxcr" xy="614,469" group="n17_wq4b">
+      <Button title="6"/>
+    </component>
+    <component id="n11_wq4b" name="n11" src="wx533" pkg="lkufxxcr" xy="810,470" group="n17_wq4b">
+      <Button title="7"/>
+    </component>
+    <component id="n12_wq4b" name="n12" src="wx533" pkg="lkufxxcr" xy="1020,473" group="n17_wq4b">
+      <Button title="8"/>
+    </component>
+    <component id="n13_wq4b" name="n13" src="wx533" pkg="lkufxxcr" xy="415,618" group="n17_wq4b">
+      <Button title="9"/>
+    </component>
+    <component id="n14_wq4b" name="n14" src="wx533" pkg="lkufxxcr" xy="614,617" group="n17_wq4b">
+      <Button title="10"/>
+    </component>
+    <component id="n15_wq4b" name="n15" src="wx533" pkg="lkufxxcr" xy="822,623" group="n17_wq4b">
+      <Button title="11"/>
+    </component>
+    <component id="n16_wq4b" name="n16" src="wx533" pkg="lkufxxcr" xy="1021,625" group="n17_wq4b">
+      <Button title="12"/>
+    </component>
+    <group id="n17_wq4b" name="Group_Btns" xy="414,320" size="740,384" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="4"/>
+    </group>
+    <component id="n18_wq4b" name="Btn_ToNight" src="wx534" pkg="lkufxxcr" xy="55,48">
+      <gearDisplay controller="c1" pages="4,5"/>
+      <Button title="进入天黑" icon="ui://lk3j63suwx533"/>
+    </component>
+    <component id="n19_wq4b" name="Btn_JudgeGame" src="wx534" pkg="lkufxxcr" xy="620,792">
+      <gearDisplay controller="c1" pages="4"/>
+      <Button title="放 逐" icon="ui://lk3j63suwx534"/>
+    </component>
+    <image id="n20_wq4b" name="Img_Night" src="wx535" pkg="lk3j63su" xy="576,184">
+      <gearDisplay controller="c1" pages="8"/>
+    </image>
+    <component id="n0_gdse" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" hideByEditor="true" touchable="false"/>
+    <graph id="n21_wq4b" name="ToMain" xy="3,-1" size="1600,900" locked="true" alpha="0" touchable="false" type="rect" fillColor="#ff000000"/>
+  </displayList>
+  <transition name="ToNight">
+    <item time="0" type="Alpha" target="n20_wq4b" tween="true" startValue="1" endValue="0" duration="36"/>
+  </transition>
+  <transition name="ToMain">
+    <item time="0" type="Alpha" target="n21_wq4b" tween="true" startValue="0" endValue="1" duration="24"/>
+  </transition>
+</component>

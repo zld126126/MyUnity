@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Panel_DayAndNight - GuideMessage -->
+  <string name="8fn7uisugdse1-n1_gdse" mz="Tex_GuideMessage">夜明け</string>
+  <string name="8fn7uisugdse1-n1_gdse-texts" mz="Tex_GuideMessage">
+    それは夜明けです|昨夜、[color=#00FF00]平安夜[/color]|昨夜、死者は|昨晩の二重死、ナイフの毒の後|追放されるプレイヤーの番号をクリックしてください|ゲームの終了
+
+    [color=#00FF00]良い人が勝つ[/color]|ゲームの終了
+
+    [color=#FF0000]狼男の勝利[/color]
+  </string>
+  <string name="8fn7uisugdse1-n1_gdse-texts_def" mz="Tex_GuideMessage">デスプレイヤーのポストワードをお願いします</string>
+  <!-- Panel_DayAndNight - Main -->
+  <string name="8fn7uisugdse0-n3_wq4b" mz="Btn_Return">ゲームを終了する</string>
+  <string name="8fn7uisugdse0-n18_wq4b" mz="Btn_ToNight">暗闇の中へ</string>
+  <string name="8fn7uisugdse0-n19_wq4b" mz="Btn_JudgeGame">追 放</string>
+  <!-- Panel_Defender - GuideMessage -->
+  <string name="84r5cwifgdse1-n0_gdse" mz="n0">[color=#FFFF00]今夜あなたがガードしたいプレイヤー[/color]</string>
+  <string name="84r5cwifgdse1-n0_gdse-texts" mz="n0">守卫请睁眼|[color=#FFFF00]今夜あなたがガードしたいプレイヤー[/color]|[color=#FFFF00]今夜あなたがガードしたいプレイヤー[/color]</string>
+  <string name="84r5cwifgdse1-n0_gdse-texts_def" mz="n0">今夜あなたがガードしたいプレイヤー</string>
+  <!-- Panel_Defender - Main -->
+  <string name="84r5cwifgdse0-n11_gdse-prompt" mz="Tex_GuardNumber">保護者の番号を入力してください</string>
+  <!-- Panel_Game - GuideMessage -->
+  <string name="8v58zf63quwk2-n0_quwk" mz="Tex_GuideID">いいえ、プレーヤーはアイデンティティを見ます</string>
+  <string name="8v58zf63quwk2-n0_quwk-texts" mz="Tex_GuideID">あなたの身元は</string>
+  <string name="8v58zf63quwk2-n0_quwk-texts_def" mz="Tex_GuideID">いいえ、プレーヤーはアイデンティティを見ます</string>
+  <string name="8v58zf63quwk2-n1_quwk" mz="Tex_GuideClick">ゲームを読み込む</string>
+  <string name="8v58zf63quwk2-n1_quwk-texts" mz="Tex_GuideClick">カードをクリックしてIDを隠し、次のプレーヤーに電話を渡す|ゲームの読み込み</string>
+  <string name="8v58zf63quwk2-n1_quwk-texts_def" mz="Tex_GuideClick">身分証明書を見るにはカードをクリック</string>
+  <string name="8v58zf63quwk2-n3_quwk" mz="Tex_ID">狼男</string>
+  <!-- Panel_Help - Main -->
+  <string name="li4ujg9kwx530-n1_wx53" mz="Tex_ID">アイデンティティ</string>
+  <!-- Panel_Hunter - GuideMessage -->
+  <string name="8qy49acxfx2l1-n0_fx2l" mz="Tex_Guide">あなたの現在のステータス</string>
+  <string name="8qy49acxfx2l1-n0_fx2l-texts" mz="Tex_Guide">ハンターが点滅してください|ハンターはあなたの目を閉じてください</string>
+  <string name="8qy49acxfx2l1-n0_fx2l-texts_def" mz="Tex_Guide">あなたの現在のステータス</string>
+  <string name="8qy49acxfx2l1-n1_fx2l" mz="Tex_IfShoot">撮影することができます</string>
+  <string name="8qy49acxfx2l1-n1_fx2l-texts" mz="Tex_IfShoot">|撮影できません</string>
+  <string name="8qy49acxfx2l1-n1_fx2l-texts_def" mz="Tex_IfShoot">撮影することができます</string>
+  <!-- Panel_Main - Main -->
+  <string name="l7yrj4n7wx530-n0_wx53" mz="Btn_StartGame">ゲームを開始する</string>
+  <string name="l7yrj4n7wx530-n1_wx53" mz="Btn_Help">ゲームのヘルプ</string>
+  <string name="l7yrj4n7wx530-n2_wx53" mz="Btn_Set">ゲームの設定</string>
+  <string name="l7yrj4n7wx530-n3_wx53" mz="Btn_ExitGame">ゲームを終了する</string>
+  <!-- Panel_Prophet - GuideMessage -->
+  <string name="8ziut2iigdse2-n1_gdse" mz="n1">預言者は目を閉じた</string>
+  <string name="8ziut2iigdse2-n1_gdse-texts" mz="n1">
+    預言者が点滅してください|[color=#FFFF00]確認したいプレイヤーに合わせてください
+    クリスタルボールの中にドラッグされた適切なカード[/color]|[color=#FFFF00]あなたが確認しているプレーヤーの身元は[/color]|預言者は目を閉じた
+  </string>
+  <!-- Panel_Prophet - Main -->
+  <string name="8ziut2iigdse0-n26_gdse" mz="Btn_ToNext">飛び越える</string>
+  <!-- Panel_Set - Main -->
+  <string name="8xlcy473quwk0-n0_quwk" mz="Tex_Sound">ゲームの音量：</string>
+  <string name="8xlcy473quwk0-n1_quwk" mz="Tex_Language">言語設定：</string>
+  <string name="8xlcy473quwk0-n4_quwk-0" mz="Combo_Language">中国語</string>
+  <string name="8xlcy473quwk0-n4_quwk-1" mz="Combo_Language">英語</string>
+  <string name="8xlcy473quwk0-n4_quwk-2" mz="Combo_Language">日本語</string>
+  <!-- Panel_Witch - GuideMessage -->
+  <string name="86ahv7omfx2l1-n3_fx2l" mz="GuideMessage">[color=#FFFF00]あなたが毒を出したいプレイヤーは[/color]</string>
+  <string name="86ahv7omfx2l1-n3_fx2l-texts" mz="GuideMessage">魔女は点滅してください|[color=#FFFF00]今夜死んだプレイヤーは[/color]|[color=#FFFF00]あなたが毒を出したいプレイヤーは[/color]|魔女は目を閉じてください</string>
+  <!-- Panel_Witch - Main -->
+  <string name="86ahv7omfx2l0-n4_fx2l" mz="Btn_Save">解毒剤を使用する</string>
+  <string name="86ahv7omfx2l0-n5_fx2l" mz="Btn_Kill">毒を使う</string>
+  <string name="86ahv7omfx2l0-n6_fx2l" mz="Btn_ToNext">飛び越える</string>
+  <!-- Panel_Wolf - GuideMessage -->
+  <string name="8dyk0ltgfx2l4-n0_fx2l-texts" mz="Tex_Guide">[color=#FFFF00]今夜はオオカミが狩りをしている[/color]||ウェレオの人々は目を閉じます</string>
+  <string name="8dyk0ltgfx2l4-n0_fx2l-texts_def" mz="Tex_Guide">狼男は明滅してください</string>
+  <!-- Res_Component - Btn_Act -->
+  <string name="lkufxxcrwx537-n2_wx53" mz="title">決定する</string>
+  <!-- Res_Component - Btn_ChangePanel -->
+  <string name="lkufxxcrwx534-n2_wx53" mz="title">戻る</string>
+</resources>

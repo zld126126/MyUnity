@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="1"/>
+  <displayList>
+    <image id="n24_fx2l" name="BG" src="wx5326" pkg="lw2d8ik4" xy="-599,0" size="2684,900" group="n23_fx2l" alpha="0.44"/>
+    <graph id="n25_fx2l" name="Mask" xy="0,0" size="308,900" group="n23_fx2l" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <graph id="n26_fx2l" name="Mask" xy="1223,0" size="375,900" group="n23_fx2l" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <component id="n5_fx2l" name="n5" src="wx533" pkg="lkufxxcr" xy="89,272" group="n17_fx2l">
+      <Button title="1"/>
+    </component>
+    <component id="n6_fx2l" name="n6" src="wx533" pkg="lkufxxcr" xy="328,279" group="n17_fx2l">
+      <Button title="2"/>
+    </component>
+    <component id="n7_fx2l" name="n7" src="wx533" pkg="lkufxxcr" xy="1055,283" group="n17_fx2l">
+      <Button title="7"/>
+    </component>
+    <component id="n8_fx2l" name="n8" src="wx533" pkg="lkufxxcr" xy="1282,281" group="n17_fx2l">
+      <Button title="8"/>
+    </component>
+    <component id="n9_fx2l" name="n9" src="wx533" pkg="lkufxxcr" xy="326,439" group="n17_fx2l">
+      <Button title="4"/>
+    </component>
+    <component id="n10_fx2l" name="n10" src="wx533" pkg="lkufxxcr" xy="77,439" group="n17_fx2l">
+      <Button title="3"/>
+    </component>
+    <component id="n11_fx2l" name="n11" src="wx533" pkg="lkufxxcr" xy="74,614" group="n17_fx2l">
+      <Button title="5"/>
+    </component>
+    <component id="n12_fx2l" name="n12" src="wx533" pkg="lkufxxcr" xy="331,618" group="n17_fx2l">
+      <Button title="6"/>
+    </component>
+    <component id="n13_fx2l" name="n13" src="wx533" pkg="lkufxxcr" xy="1058,458" group="n17_fx2l">
+      <Button title="9"/>
+    </component>
+    <component id="n14_fx2l" name="n14" src="wx533" pkg="lkufxxcr" xy="1287,448" group="n17_fx2l">
+      <Button title="10"/>
+    </component>
+    <component id="n15_fx2l" name="n15" src="wx533" pkg="lkufxxcr" xy="1061,633" group="n17_fx2l">
+      <Button title="11"/>
+    </component>
+    <component id="n16_fx2l" name="n16" src="wx533" pkg="lkufxxcr" xy="1297,624" group="n17_fx2l">
+      <Button title="12"/>
+    </component>
+    <group id="n17_fx2l" name="Group_KillNumber" xy="74,272" size="1356,440" group="n23_fx2l" advanced="true" collapsed="true"/>
+    <component id="n18_fx2l" name="Btn_Certain" src="wx537" pkg="lkufxxcr" xy="615,706" group="n23_fx2l">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button icon="ui://lw2d8ik4wx5323"/>
+    </component>
+    <image id="n21_fx2l" name="Img_Kill" src="wx5325" pkg="lw2d8ik4" xy="541,304" pivot="0.5,0.48" size="439,442" group="n23_fx2l"/>
+    <image id="n22_fx2l" name="Img_Boom" src="wx5324" pkg="lw2d8ik4" xy="559,334" pivot="0.5,0.5" group="n23_fx2l" hideByEditor="true"/>
+    <text id="n20_fx2l" name="Tex_KillNumber" xy="696,464" size="132,79" group="n23_fx2l" font="ui://lk3j63suwx53g" fontSize="100" color="#ff0000" align="center" vAlign="middle" letterSpacing="-22" autoSize="none" text="0"/>
+    <group id="n23_fx2l" name="Group_Act" xy="-599,0" size="2683,900" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <component id="n1_fx2l" name="EyeClose" src="wx532" pkg="lkufxxcr" xy="651,467" hideByEditor="true"/>
+    <component id="n2_fx2l" name="EyeOpen" src="wx531" pkg="lkufxxcr" xy="649,465" hideByEditor="true">
+      <gearDisplay controller="c1" pages=""/>
+    </component>
+    <component id="n4_fx2l" name="GuideMessage" src="fx2l4" xy="239,76">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearXY controller="c1" pages="1,2" values="239,76|236,122" default="296,197"/>
+    </component>
+    <component id="n3_fx2l" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" hideByEditor="true" touchable="false"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n21_fx2l" value="1"/>
+    <item time="0" type="Alpha" target="n22_fx2l" value="0"/>
+    <item time="0" type="Rotation" target="n21_fx2l" tween="true" startValue="0" endValue="-90" duration="24" ease="Linear"/>
+    <item time="0" type="Scale" target="n21_fx2l" tween="true" startValue="1,1" endValue="0.5,0.5" duration="48" ease="Linear"/>
+    <item time="24" type="Rotation" target="n21_fx2l" tween="true" startValue="-90" endValue="-180" duration="24" ease="Linear"/>
+    <item time="48" type="Rotation" target="n21_fx2l" tween="true" startValue="-180" endValue="-270" duration="24" ease="Linear"/>
+    <item time="48" type="Scale" target="n21_fx2l" tween="true" startValue="0.5,0.5" endValue="1,1" duration="48" ease="Linear"/>
+    <item time="72" type="Rotation" target="n21_fx2l" tween="true" startValue="-270" endValue="-360" duration="24" ease="Linear"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n22_fx2l" value="0"/>
+    <item time="0" type="Rotation" target="n21_fx2l" tween="true" startValue="0" endValue="180" duration="24"/>
+    <item time="0" type="Scale" target="n21_fx2l" tween="true" startValue="1,1" endValue="0.3,0.3" duration="18"/>
+    <item time="18" type="Alpha" target="n22_fx2l" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="18" type="Alpha" target="n21_fx2l" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="18" type="Scale" target="n22_fx2l" tween="true" startValue="0.3,0.3" endValue="1,1" duration="6"/>
+  </transition>
+</component>

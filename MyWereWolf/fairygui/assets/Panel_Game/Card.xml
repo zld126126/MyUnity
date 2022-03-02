@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" extention="Button">
+  <controller name="c1" pages="4,HideID,5,ShowID,6,LoadGame" selected="0"/>
+  <displayList>
+    <image id="n1" name="CardBG" src="wx530" pkg="lk3j63su" xy="0,0" pivot="0.5,0.5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_quwk" name="icon" xy="0,0" pivot="0.5,0.5" size="300,300"/>
+  </displayList>
+  <Button sound="ui://lw2d8ik4wx5317"/>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lk3j63su" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="wx530" name="CardsBG.png" path="/BG/" exported="true"/>
+    <image id="wx531" name="IdentityBG.jpg" path="/BG/" exported="true"/>
+    <image id="wx532" name="2-Orange.png" path="/Button/" exported="true"/>
+    <image id="wx533" name="3-Black'n'White.png" path="/Button/" exported="true"/>
+    <image id="wx534" name="3-Colored.png" path="/Button/" exported="true"/>
+    <image id="wx535" name="42a85ded9c2a87504d71859bd7c3db28.png" path="/BG/" exported="true"/>
+    <image id="wx536" name="6.png" path="/Number/"/>
+    <image id="wx537" name="7.png" path="/Number/"/>
+    <image id="wx538" name="8.png" path="/Number/"/>
+    <image id="wx539" name="9.png" path="/Number/"/>
+    <image id="wx53a" name="0.png" path="/Number/"/>
+    <image id="wx53b" name="1.png" path="/Number/"/>
+    <image id="wx53c" name="2.png" path="/Number/"/>
+    <image id="wx53d" name="3.png" path="/Number/"/>
+    <image id="wx53e" name="4.png" path="/Number/"/>
+    <image id="wx53f" name="5.png" path="/Number/"/>
+    <font id="wx53g" name="FontNumber.fnt" path="/Number/" exported="true"/>
+    <image id="wx53i" name="CardLight1.png" path="/Anim/"/>
+    <image id="wx53j" name="CardLight2.png" path="/Anim/"/>
+    <movieclip id="wx53k" name="CardLight.jta" path="/Anim/" exported="true"/>
+    <image id="wq4bn" name="timg.jpg" path="/BG/" exported="true"/>
+    <movieclip id="tahkp" name="CloseEyes.jta" path="/Anim/" exported="true"/>
+    <movieclip id="tahkq" name="OpenEyes.jta" path="/Anim/" exported="true"/>
+  </resources>
+  <publish name="Res_Game"/>
+</packageDescription>

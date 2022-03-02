@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="1"/>
+  <displayList>
+    <image id="n7_gdse" name="BG" src="wx531r" pkg="lw2d8ik4" xy="-577,0" size="2694,900" group="n10_gdse" alpha="0.8"/>
+    <graph id="n8_gdse" name="Mask" xy="0,0" size="321,900" group="n10_gdse" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <graph id="n9_gdse" name="Mask" xy="1244,1" size="358,900" group="n10_gdse" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <graph id="n5_gdse" name="DefendEffect" xy="777,517" size="100,100" group="n10_gdse" type="rect"/>
+    <image id="n4_gdse" name="Img_Guard" src="wx531s" pkg="lw2d8ik4" xy="636,388" size="270,246" group="n10_gdse"/>
+    <component id="n6_gdse" name="Btn_Certain" src="wx537" pkg="lkufxxcr" xy="612,649" group="n10_gdse">
+      <Button icon="ui://lw2d8ik4wx531q"/>
+    </component>
+    <text id="n11_gdse" name="Tex_GuardNumber" xy="259,463" size="1021,104" group="n10_gdse" input="true" prompt="请输入守护玩家的号码" maxLength="2" restrict="[0-9]" keyboardType="4" font="汉仪南宫体简" fontSize="100" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="0&#xA;"/>
+    <group id="n10_gdse" name="Group_Act" xy="-577,0" size="2694,901" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <component id="n0_gdse" name="GuideMessage" src="gdse1" xy="317,162">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearXY controller="c1" pages="1" values="317,162" default="329,216"/>
+    </component>
+    <component id="n2_gdse" name="EyeClose" src="wx532" pkg="lkufxxcr" xy="654,501" hideByEditor="true" touchable="false"/>
+    <component id="n3_gdse" name="EyeOpen" src="wx531" pkg="lkufxxcr" xy="657,494" hideByEditor="true" touchable="false"/>
+    <component id="n1_gdse" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" hideByEditor="true" touchable="false"/>
+  </displayList>
+</component>

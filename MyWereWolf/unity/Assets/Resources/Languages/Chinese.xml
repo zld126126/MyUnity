@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Panel_DayAndNight - GuideMessage -->
+  <string name="8fn7uisugdse1-n1_gdse" mz="Tex_GuideMessage">天亮了</string>
+  <string name="8fn7uisugdse1-n1_gdse-texts" mz="Tex_GuideMessage">天亮了|昨晚，[color=#00FF00]平安夜[/color]|昨晚，死亡玩家是|昨晚双死，刀前毒后|请点击要放逐的玩家号码|游戏结束
+
+[color=#00FF00]好人胜利[/color]|游戏结束
+
+[color=#FF0000]狼人胜利[/color]</string>
+  <string name="8fn7uisugdse1-n1_gdse-texts_def" mz="Tex_GuideMessage">请死亡玩家发表遗言</string>
+  <!-- Panel_DayAndNight - Main -->
+  <string name="8fn7uisugdse0-n3_wq4b" mz="Btn_Return">结束游戏</string>
+  <string name="8fn7uisugdse0-n18_wq4b" mz="Btn_ToNight">进入天黑</string>
+  <string name="8fn7uisugdse0-n19_wq4b" mz="Btn_JudgeGame">放 逐</string>
+  <!-- Panel_Defender - GuideMessage -->
+  <string name="84r5cwifgdse1-n0_gdse" mz="n0">[color=#FFFF00]今晚您要守护的玩家[/color]</string>
+  <string name="84r5cwifgdse1-n0_gdse-texts" mz="n0">守卫请睁眼|[color=#FFFF00]今晚您要守护的玩家[/color]|[color=#FFFF00]今晚您要守护的玩家[/color]</string>
+  <string name="84r5cwifgdse1-n0_gdse-texts_def" mz="n0">今晚您要守护的玩家</string>
+  <!-- Panel_Defender - Main -->
+  <string name="84r5cwifgdse0-n11_gdse-prompt" mz="Tex_GuardNumber">请输入守护玩家的号码</string>
+  <!-- Panel_Game - GuideMessage -->
+  <string name="8v58zf63quwk2-n0_quwk" mz="Tex_GuideID">号玩家看身份</string>
+  <string name="8v58zf63quwk2-n0_quwk-texts" mz="Tex_GuideID">您的身份是</string>
+  <string name="8v58zf63quwk2-n0_quwk-texts_def" mz="Tex_GuideID">号玩家看身份</string>
+  <string name="8v58zf63quwk2-n1_quwk" mz="Tex_GuideClick">游戏加载中</string>
+  <string name="8v58zf63quwk2-n1_quwk-texts" mz="Tex_GuideClick">点击卡牌隐藏身份，并将手机递给下一位玩家|游戏加载中</string>
+  <string name="8v58zf63quwk2-n1_quwk-texts_def" mz="Tex_GuideClick">点击卡牌看身份</string>
+  <string name="8v58zf63quwk2-n3_quwk" mz="Tex_ID">狼人</string>
+  <!-- Panel_Help - Main -->
+  <string name="li4ujg9kwx530-n1_wx53" mz="Tex_ID">身 份</string>
+  <!-- Panel_Hunter - GuideMessage -->
+  <string name="8qy49acxfx2l1-n0_fx2l" mz="Tex_Guide">您的当前状态</string>
+  <string name="8qy49acxfx2l1-n0_fx2l-texts" mz="Tex_Guide">猎人请睁眼|猎人请闭眼</string>
+  <string name="8qy49acxfx2l1-n0_fx2l-texts_def" mz="Tex_Guide">您的当前状态</string>
+  <string name="8qy49acxfx2l1-n1_fx2l" mz="Tex_IfShoot">可以开枪</string>
+  <string name="8qy49acxfx2l1-n1_fx2l-texts" mz="Tex_IfShoot">|不可开枪</string>
+  <string name="8qy49acxfx2l1-n1_fx2l-texts_def" mz="Tex_IfShoot">可以开枪</string>
+  <!-- Panel_Main - Main -->
+  <string name="l7yrj4n7wx530-n0_wx53" mz="Btn_StartGame">开始游戏</string>
+  <string name="l7yrj4n7wx530-n1_wx53" mz="Btn_Help">游戏帮助</string>
+  <string name="l7yrj4n7wx530-n2_wx53" mz="Btn_Set">游戏设置</string>
+  <string name="l7yrj4n7wx530-n3_wx53" mz="Btn_ExitGame">退出游戏</string>
+  <!-- Panel_Prophet - GuideMessage -->
+  <string name="8ziut2iigdse2-n1_gdse" mz="n1">预言家请闭眼</string>
+  <string name="8ziut2iigdse2-n1_gdse-texts" mz="n1">预言家请睁眼|[color=#FFFF00]请将您想查验的玩家对
+应的卡牌拖进水晶球[/color]|[color=#FFFF00]您查验的玩家身份是[/color]|预言家请闭眼</string>
+  <!-- Panel_Prophet - Main -->
+  <string name="8ziut2iigdse0-n26_gdse" mz="Btn_ToNext">跳 过</string>
+  <!-- Panel_Set - Main -->
+  <string name="8xlcy473quwk0-n0_quwk" mz="Tex_Sound">游戏音量：</string>
+  <string name="8xlcy473quwk0-n1_quwk" mz="Tex_Language">语言设置：</string>
+  <string name="8xlcy473quwk0-n4_quwk-0" mz="Combo_Language">中文</string>
+  <string name="8xlcy473quwk0-n4_quwk-1" mz="Combo_Language">英文</string>
+  <string name="8xlcy473quwk0-n4_quwk-2" mz="Combo_Language">日文</string>
+  <!-- Panel_Witch - GuideMessage -->
+  <string name="86ahv7omfx2l1-n3_fx2l" mz="GuideMessage">[color=#FFFF00]您要毒杀的玩家是[/color]</string>
+  <string name="86ahv7omfx2l1-n3_fx2l-texts" mz="GuideMessage">女巫请睁眼|[color=#FFFF00]今晚死亡的玩家是[/color]|[color=#FFFF00]您要毒杀的玩家是[/color]|女巫请闭眼</string>
+  <!-- Panel_Witch - Main -->
+  <string name="86ahv7omfx2l0-n4_fx2l" mz="Btn_Save">使用解药</string>
+  <string name="86ahv7omfx2l0-n5_fx2l" mz="Btn_Kill">使用毒药</string>
+  <string name="86ahv7omfx2l0-n6_fx2l" mz="Btn_ToNext">跳 过</string>
+  <!-- Panel_Wolf - GuideMessage -->
+  <string name="8dyk0ltgfx2l4-n0_fx2l-texts" mz="Tex_Guide">[color=#FFFF00]狼队今晚要猎杀的玩家[/color]||狼人请闭眼</string>
+  <string name="8dyk0ltgfx2l4-n0_fx2l-texts_def" mz="Tex_Guide">狼人请睁眼</string>
+  <!-- Res_Component - Btn_Act -->
+  <string name="lkufxxcrwx537-n2_wx53" mz="title">确  定</string>
+  <!-- Res_Component - Btn_ChangePanel -->
+  <string name="lkufxxcrwx534-n2_wx53" mz="title">返  回</string>
+</resources>

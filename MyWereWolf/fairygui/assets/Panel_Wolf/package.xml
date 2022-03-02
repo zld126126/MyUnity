@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8dyk0ltg" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="fx2l3" name="Main.xml" path="/" exported="true"/>
+    <component id="fx2l4" name="GuideMessage.xml" path="/"/>
+  </resources>
+  <publish name="Panel_Wolf"/>
+</packageDescription>

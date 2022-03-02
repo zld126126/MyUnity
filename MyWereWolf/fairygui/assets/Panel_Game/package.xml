@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8v58zf63" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="quwk0" name="Main.xml" path="/" exported="true"/>
+    <component id="quwk1" name="Card.xml" path="/"/>
+    <component id="quwk2" name="GuideMessage.xml" path="/"/>
+  </resources>
+  <publish name="Panel_Game"/>
+</packageDescription>

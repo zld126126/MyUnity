@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lw2d8ik4" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="wx53m" name="3aef231d81f3c453d9f14721bc012a03_03.png" path="/Set/" exported="true"/>
+    <image id="wx53n" name="3aef231d81f3c453d9f14721bc012a03_04.png" path="/Set/" exported="true"/>
+    <image id="wx53o" name="3aef231d81f3c453d9f14721bc012a03_08.png" path="/Set/" exported="true"/>
+    <image id="wx53p" name="帮助界面.png" path="/Maps/"/>
+    <image id="wx53q" name="发牌界面.png" path="/Maps/"/>
+    <image id="wx53r" name="放逐界面.png" path="/Maps/"/>
+    <image id="wx53s" name="开闭眼界面.png" path="/Maps/"/>
+    <image id="wx53t" name="狼人界面.png" path="/Maps/"/>
+    <image id="wx53u" name="猎人界面.png" path="/Maps/"/>
+    <image id="wx53v" name="女巫界面.png" path="/Maps/"/>
+    <image id="wx53w" name="设置界面.png" path="/Maps/"/>
+    <image id="wx53x" name="守卫界面.png" path="/Maps/"/>
+    <image id="wx53y" name="天亮界面.png" path="/Maps/"/>
+    <image id="wx53z" name="预言家界面.png" path="/Maps/"/>
+    <image id="wx5310" name="主界面.png" path="/Maps/"/>
+    <image id="wx5311" name="MainTItle.png" path="/Main/" exported="true"/>
+    <image id="wx5312" name="MainBG.jpg" path="/Main/" exported="true"/>
+    <image id="wx5313" name="Btn_MainBlue.png" path="/Main/" exported="true"/>
+    <image id="wx5314" name="Btn_MainGreen.png" path="/Main/" exported="true"/>
+    <image id="wx5315" name="Btn_MainOrange.png" path="/Main/" exported="true"/>
+    <image id="wx5316" name="Btn_MainPurple.png" path="/Main/" exported="true"/>
+    <sound id="wx5317" name="Swipe.wav" path="/Main/" exported="true"/>
+    <sound id="wx5318" name="Tap.wav" path="/Main/" exported="true"/>
+    <sound id="wx5319" name="Crumple.wav" path="/Main/" exported="true"/>
+    <sound id="wx531a" name="Rumble.wav" path="/Main/" exported="true"/>
+    <image id="wx531b" name="HelpBG.jpg" path="/Help/" exported="true"/>
+    <image id="wx531d" name="ID1.jpg" path="/Help/" exported="true"/>
+    <image id="wx531e" name="ID2.jpg" path="/Help/" exported="true"/>
+    <image id="wx531f" name="ID3.jpg" path="/Help/" exported="true"/>
+    <image id="wx531g" name="ID4.jpg" path="/Help/" exported="true"/>
+    <image id="wx531h" name="ID5.jpg" path="/Help/" exported="true"/>
+    <image id="wx531i" name="ID6.jpg" path="/Help/" exported="true"/>
+    <image id="wx531j" name="ID7.jpg" path="/Help/" exported="true"/>
+    <image id="wx531k" name="IDView.png" path="/Help/" exported="true"/>
+    <image id="wx531l" name="Introduce.png" path="/Help/" exported="true" scale="9grid" scale9grid="88,55,56,13"/>
+    <image id="wx531m" name="StarLight.png" path="/Game/" exported="true"/>
+    <image id="wx531n" name="11d7b27ccbada6dbfb091664ebfe6f35_03.png" path="/Game/" exported="true"/>
+    <image id="wx531o" name="IdentityBG.jpg" path="/Game/" exported="true"/>
+    <image id="wx531q" name="2-Grey.png" path="/Defender/" exported="true"/>
+    <image id="wx531r" name="defender.jpg" path="/Defender/" exported="true" scale="tile"/>
+    <image id="wx531s" name="Guard.png" path="/Defender/" exported="true"/>
+    <image id="wx531t" name="2-Topaz.png" path="/Prophet/" exported="true"/>
+    <image id="wx531u" name="CardLight1.png" path="/Prophet/" exported="true"/>
+    <image id="wx531v" name="CardLight2.png" path="/Prophet/" exported="true"/>
+    <image id="wx531w" name="CrystalBall.png" path="/Prophet/" exported="true"/>
+    <image id="wx531x" name="Prophet.jpg" path="/Prophet/" exported="true" scale="tile"/>
+    <image id="wx531y" name="RotateLight.png" path="/Prophet/" exported="true"/>
+    <image id="wx531z" name="2-Lime.png" path="/Witch/" exported="true"/>
+    <image id="wx5320" name="2-Sapphire.png" path="/Witch/" exported="true"/>
+    <image id="wx5321" name="PotionLight.png" path="/Witch/" exported="true"/>
+    <image id="wx5322" name="Witch.jpg" path="/Witch/" exported="true" scale="tile"/>
+    <image id="wx5323" name="2-Ruby.png" path="/Wolf/" exported="true"/>
+    <image id="wx5324" name="Boom.png" path="/Wolf/" exported="true"/>
+    <image id="wx5325" name="KillLight.png" path="/Wolf/" exported="true"/>
+    <image id="wx5326" name="Wolf.jpg" path="/Wolf/" exported="true" scale="tile"/>
+    <image id="wx5327" name="2-Emerald.png" path="/Hunter/" exported="true"/>
+    <image id="wx5328" name="Hunter.jpg" path="/Hunter/" exported="true" scale="tile"/>
+  </resources>
+  <publish name="Res_Main"/>
+</packageDescription>

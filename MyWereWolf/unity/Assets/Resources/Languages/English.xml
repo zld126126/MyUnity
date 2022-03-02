@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Panel_DayAndNight - GuideMessage -->
+  <string name="8fn7uisugdse1-n1_gdse" mz="Tex_GuideMessage"> daylight </string>
+  <string name="8fn7uisugdse1-n1_gdse-texts" mz="Tex_GuideMessage">
+    Daybreak | Last night, [color=#00FF00] Christmas Eve[/color]| Last night, the death of the player is | Last night double die, knife After poisoning|Please click on the player number to be banished | End of game
+
+    [color=#00FF00]Good man wins [/color]|The end of the game
+
+    [color=#FF0000] werewolf victory[/color]
+  </string>
+  <string name="8fn7uisugdse1-n1_gdse-texts_def" mz="Tex_GuideMessage">Please death player post </string>
+  <!-- Panel_DayAndNight - Main -->
+  <string name="8fn7uisugdse0-n3_wq4b" mz="Btn_Return">End game</string>
+  <string name="8fn7uisugdse0-n18_wq4b" mz="Btn_ToNight">Into the dark </string>
+  <string name="8fn7uisugdse0-n19_wq4b" mz="Btn_JudgeGame">Ranging</string>
+  <!-- Panel_Defender - GuideMessage -->
+  <string name="84r5cwifgdse1-n0_gdse" mz="n0">[color=#FFFF00] players you want to guard tonight [/color]</string>
+  <string name="84r5cwifgdse1-n0_gdse-texts" mz="n0">Guards blink |[color=#FFFF00] players you want to guard tonight [/color]|[color=#FFFF00] tonight you want Guardian player[/color]</string>
+  <string name="84r5cwifgdse1-n0_gdse-texts_def" mz="n0">The player you are guarding tonight</string>
+  <!-- Panel_Defender - Main -->
+  <string name="84r5cwifgdse0-n11_gdse-prompt" mz="Tex_GuardNumber">Please enter the number of the guardian player</string>
+  <!-- Panel_Game - GuideMessage -->
+  <string name="8v58zf63quwk2-n0_quwk" mz="Tex_GuideID">Number Player Looks Like</string>
+  <string name="8v58zf63quwk2-n0_quwk-texts" mz="Tex_GuideID">Your identity is </string>
+  <string name="8v58zf63quwk2-n0_quwk-texts_def" mz="Tex_GuideID">Number Player ID Seen</string>
+  <string name="8v58zf63quwk2-n1_quwk" mz="Tex_GuideClick"> game loading </string>
+  <string name="8v58zf63quwk2-n1_quwk-texts" mz="Tex_GuideClick"> Click on the card to hide the identity and pass the phone to the next player | Game Loading </string>
+  <string name="8v58zf63quwk2-n1_quwk-texts_def" mz="Tex_GuideClick">click card to see identity</string>
+  <string name="8v58zf63quwk2-n3_quwk" mz="Tex_ID">Werewolf</string>
+  <!-- Panel_Help - Main -->
+  <string name="li4ujg9kwx530-n1_wx53" mz="Tex_ID">identity</string>
+  <!-- Panel_Hunter - GuideMessage -->
+  <string name="8qy49acxfx2l1-n0_fx2l" mz="Tex_Guide">your current state</string>
+  <string name="8qy49acxfx2l1-n0_fx2l-texts" mz="Tex_Guide">Hunters please blink | Hunter please close your eyes</string>
+  <string name="8qy49acxfx2l1-n0_fx2l-texts_def" mz="Tex_Guide">your current state</string>
+  <string name="8qy49acxfx2l1-n1_fx2l" mz="Tex_IfShoot">Can fire </string>
+  <string name="8qy49acxfx2l1-n1_fx2l-texts" mz="Tex_IfShoot">|Don't shoot </string>
+  <string name="8qy49acxfx2l1-n1_fx2l-texts_def" mz="Tex_IfShoot">Can fire </string>
+  <!-- Panel_Main - Main -->
+  <string name="l7yrj4n7wx530-n0_wx53" mz="Btn_StartGame">Start the game</string>
+  <string name="l7yrj4n7wx530-n1_wx53" mz="Btn_Help">Game help</string>
+  <string name="l7yrj4n7wx530-n2_wx53" mz="Btn_Set">Game Settings</string>
+  <string name="l7yrj4n7wx530-n3_wx53" mz="Btn_ExitGame"> Quit Game </string>
+  <!-- Panel_Prophet - GuideMessage -->
+  <string name="8ziut2iigdse2-n1_gdse" mz="n1">Prophet please close your eyes</string>
+  <string name="8ziut2iigdse2-n1_gdse-texts" mz="n1">
+    Prophet please blink |[color=#FFFF00]Please match the player you want to check against
+    Should the card be dragged into the crystal ball[/color]|[color=#FFFF00]You check the player's identity is [/color]|Prophet please close your eyes
+  </string>
+  <!-- Panel_Prophet - Main -->
+  <string name="8ziut2iigdse0-n26_gdse" mz="Btn_ToNext">skip </string>
+  <!-- Panel_Set - Main -->
+  <string name="8xlcy473quwk0-n0_quwk" mz="Tex_Sound">Game volume:</string>
+  <string name="8xlcy473quwk0-n1_quwk" mz="Tex_Language">Language settings:</string>
+  <string name="8xlcy473quwk0-n4_quwk-0" mz="Combo_Language">Chinese </string>
+  <string name="8xlcy473quwk0-n4_quwk-1" mz="Combo_Language">English</string>
+  <string name="8xlcy473quwk0-n4_quwk-2" mz="Combo_Language">Japanese</string>
+  <!-- Panel_Witch - GuideMessage -->
+  <string name="86ahv7omfx2l1-n3_fx2l" mz="GuideMessage">[color=#FFFF00]The player you want to poison is [/color]</string>
+  <string name="86ahv7omfx2l1-n3_fx2l-texts" mz="GuideMessage">Witch please blink |[color=#FFFF00] Tonight's player is [/color]|[color=#FFFF00] you want to poison Player is [/color]|Witch please close your eyes</string>
+  <!-- Panel_Witch - Main -->
+  <string name="86ahv7omfx2l0-n4_fx2l" mz="Btn_Save">Use antidote</string>
+  <string name="86ahv7omfx2l0-n5_fx2l" mz="Btn_Kill">Use Poison</string>
+  <string name="86ahv7omfx2l0-n6_fx2l" mz="Btn_ToNext">skip </string>
+  <!-- Panel_Wolf - GuideMessage -->
+  <string name="8dyk0ltgfx2l4-n0_fx2l-texts" mz="Tex_Guide">[color=#FFFF00] Wolves to kill players tonight [/color]|| werewolf please close their eyes</string>
+  <string name="8dyk0ltgfx2l4-n0_fx2l-texts_def" mz="Tex_Guide">Wolf man blinks</string>
+  <!-- Res_Component - Btn_Act -->
+  <string name="lkufxxcrwx537-n2_wx53" mz="title">Determine</string>
+  <!-- Res_Component - Btn_ChangePanel -->
+  <string name="lkufxxcrwx534-n2_wx53" mz="title">Back </string>
+</resources>

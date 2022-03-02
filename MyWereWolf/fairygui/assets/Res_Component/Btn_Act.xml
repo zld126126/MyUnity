@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="312,91" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_wx53" name="icon" xy="0,0" size="312,91"/>
+    <text id="n2_wx53" name="title" xy="0,0" size="312,91" font="汉仪南宫体简" fontSize="50" color="#ffff00" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="确  定"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>
