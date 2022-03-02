@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,ShowID,1,LoadGame" selected="0"/>
+  <displayList>
+    <image id="n2_quwk" name="BG" src="wx531o" pkg="lw2d8ik4" xy="0,-63" size="1607,1087" alpha="0.2" color="#ff0000"/>
+    <component id="n0_quwk" name="GuideMessage" src="quwk2" xy="337,132"/>
+    <image id="n5_quwk" name="Img_Load" src="wx531n" pkg="lw2d8ik4" xy="571,137" pivot="0.51,0.51">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <component id="n1_quwk" name="Btn_Card" src="quwk1" xy="673,299">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <image id="n4_quwk" name="Img_Light" src="wx531m" pkg="lw2d8ik4" xy="717,364" pivot="0.5,0.5" size="206,171">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <component id="n3_quwk" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" hideByEditor="true" touchable="false"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n4_quwk" tween="true" startValue="1" endValue="0" duration="24"/>
+    <item time="0" type="Size" target="n4_quwk" tween="true" startValue="124.38,87.06" endValue="510.46,408.63" duration="24"/>
+  </transition>
+  <transition name="t1" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n5_quwk" tween="true" startValue="0" endValue="180" duration="18" ease="Linear"/>
+    <item time="18" type="Rotation" target="n5_quwk" tween="true" startValue="180" endValue="360" duration="18" ease="Linear"/>
+  </transition>
+</component>

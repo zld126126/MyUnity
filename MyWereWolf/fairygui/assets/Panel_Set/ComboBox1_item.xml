@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="312,75" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="wx5315" pkg="lw2d8ik4" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2" name="title" xy="0,0" size="312,75" font="汉仪南宫体简" fontSize="50" color="#ffff00" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button mode="Radio" downEffect="dark" downEffectValue="0.80"/>
+</component>

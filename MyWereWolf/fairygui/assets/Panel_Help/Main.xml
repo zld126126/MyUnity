@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <image id="n9_wx53" name="BG" src="wx531b" pkg="lw2d8ik4" xy="0,0" size="1600,900" color="#ff0000"/>
+    <image id="n0_wx53" name="Img_IDView" src="wx531k" pkg="lw2d8ik4" xy="642,409" size="300,74" group="n4_wx53"/>
+    <text id="n1_wx53" name="Tex_ID" xy="728,420" size="130,54" group="n4_wx53" font="汉仪南宫体简" fontSize="50" color="#ffff00" text="身 份"/>
+    <image id="n2_wx53" name="Img_Introduce" src="wx531l" pkg="lw2d8ik4" xy="484,495" size="614,228" group="n4_wx53"/>
+    <text id="n3_wx53" name="Tex_Introduce" xy="530,532" size="532,163" group="n4_wx53" font="汉仪南宫体简" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text=""/>
+    <group id="n4_wx53" name="Group_Introduce" xy="484,409" size="614,314"/>
+    <list id="n7_wx53" name="CardList" xy="-4,0" size="1600,406" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="2" margin="47,21,0,0" colGap="21" defaultItem="ui://li4ujg9kwx531" align="center" vAlign="middle" renderOrder="arch">
+      <item icon="ui://lw2d8ik4wx531d"/>
+      <item icon="ui://lw2d8ik4wx531e"/>
+      <item icon="ui://lw2d8ik4wx531f"/>
+      <item icon="ui://lw2d8ik4wx531g"/>
+      <item icon="ui://lw2d8ik4wx531h"/>
+    </list>
+    <component id="n6_wx53" name="Btn_Return" src="wx534" pkg="lkufxxcr" xy="641,773">
+      <Button icon="ui://lw2d8ik4wx5315"/>
+    </component>
+    <component id="n10_wx53" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" hideByEditor="true" touchable="false"/>
+  </displayList>
+</component>

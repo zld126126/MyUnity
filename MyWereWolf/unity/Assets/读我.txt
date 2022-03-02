@@ -1,0 +1,11 @@
+FairyGUI UI编辑器专门为打造游戏界面设计，操作简单，使用习惯与Adobe系列软件保持一致，美术设计师可以轻松上手。在编辑器即可组合各种复杂UI组件，以及为UI设计动画效果，无需编写任何代码。可一键导出到Unity，Starling，Egret， Layabox，Flash等多个主流游戏平台。
+
+在Assets/FairyGUI/Examples/Scenes下运行例子。
+解压Assets/FairyGUI/Examples-UIProject.zip到任意目录，使用FairyGUI编辑器打开UI工程。
+
+加入Q群获得FairyGUI最新资讯：434866637
+
+官方网站：http://www.fairygui.com
+使用教程：http://www.fairygui.com/tutorial
+API文档:：http://www.fairygui.com/api/
+SDK源码：https://github.com/fairygui

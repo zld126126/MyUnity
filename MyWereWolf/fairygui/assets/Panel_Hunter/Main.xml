@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="2"/>
+  <displayList>
+    <image id="n5_fx2l" name="BG" src="wx5328" pkg="lw2d8ik4" xy="-544,-2" size="2702,900" group="n8_r5od" alpha="0.8">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </image>
+    <graph id="n6_fx2l" name="Mask" xy="0,0" size="346,900" group="n8_r5od" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <graph id="n7_fx2l" name="Mask" xy="1256,1" size="346,900" group="n8_r5od" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <component id="n4_fx2l" name="Btn_Certain" src="wx537" pkg="lkufxxcr" xy="654,662" group="n8_r5od">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <Button icon="ui://lw2d8ik4wx5327"/>
+    </component>
+    <group id="n8_r5od" name="Group_Act" xy="-544,-2" size="2702,903" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <component id="n0_fx2l" name="GuideMessage" src="fx2l1" xy="443,217">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearXY controller="c1" pages="0,1,2,3" values="395,203|427,219|443,217|405,189"/>
+    </component>
+    <component id="n1_fx2l" name="EyeClose" src="wx532" pkg="lkufxxcr" xy="647,467"/>
+    <component id="n2_fx2l" name="EyeOpen" src="wx531" pkg="lkufxxcr" xy="632,467"/>
+    <component id="n3_fx2l" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" hideByEditor="true" touchable="false"/>
+  </displayList>
+</component>

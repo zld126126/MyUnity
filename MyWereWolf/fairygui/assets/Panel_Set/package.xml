@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8xlcy473" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="quwk0" name="Main.xml" path="/" exported="true"/>
+    <component id="quwk1" name="Slider1_grip.xml" path="/"/>
+    <component id="quwk2" name="Slider1.xml" path="/"/>
+    <component id="quwk3" name="ComboBox1_item.xml" path="/"/>
+    <component id="quwk4" name="ComboBox1_popup.xml" path="/"/>
+    <component id="quwk5" name="ComboBox1.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Panel_Set"/>
+</packageDescription>

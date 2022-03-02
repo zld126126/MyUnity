@@ -1,0 +1,14 @@
+{
+	"buttonClickSound":"ui://lw2d8ik4wx5319",
+	"colorScheme":["自定义颜色 #FF0000","按钮颜色 #FFFF00"],
+	"font":"_sans",
+	"fontSize":12,
+	"fontSizeScheme":["自定义字体大小 30","按钮字体 50","说明字体 100"],
+	"scrollBars":{
+		"defaultDisplay":"visible",
+		"horizontal":"",
+		"vertical":""
+	},
+	"textColor":"#000000",
+	"tipsRes":""
+}

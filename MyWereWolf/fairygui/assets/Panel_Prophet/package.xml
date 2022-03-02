@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="8ziut2ii" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="gdse0" name="Main.xml" path="/" exported="true"/>
+    <component id="gdse2" name="GuideMessage.xml" path="/"/>
+    <component id="gdse3" name="Card.xml" path="/"/>
+    <component id="tahk5" name="Crystal.xml" path="/"/>
+  </resources>
+  <publish name="Panel_Prophet"/>
+</packageDescription>

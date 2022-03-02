@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1021,206">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="3"/>
+  <displayList>
+    <text id="n1_gdse" name="n1" xy="-5,-129" size="1027,459" font="汉仪南宫体简" fontSize="100" color="#ff00ff" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="预言家请闭眼">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearText controller="c1" pages="0,1,2,3" values="预言家请睁眼|[color=#FFFF00]请将您想查验的玩家对&#xA;应的卡牌拖进水晶球[/color]|[color=#FFFF00]您查验的玩家身份是[/color]|预言家请闭眼"/>
+    </text>
+  </displayList>
+</component>

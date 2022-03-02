@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="738,104">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="0"/>
+  <displayList>
+    <text id="n0_fx2l" name="Tex_Guide" xy="0,0" size="737,104" font="汉仪南宫体简" fontSize="100" color="#00ffff" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="您的当前状态">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearText controller="c1" pages="0,3" values="猎人请睁眼|猎人请闭眼" default="您的当前状态"/>
+    </text>
+    <text id="n1_fx2l" name="Tex_IfShoot" xy="134,111" size="460,104" font="汉仪南宫体简" fontSize="100" color="#ff0000" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="可以开枪">
+      <gearDisplay controller="c1" pages="1,2"/>
+      <gearColor controller="c1" pages="1" values="#00ff00,#000000" default="#ff0000,#000000"/>
+      <gearText controller="c1" pages="0,2" values="|不可开枪" default="可以开枪"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <graph id="n0_wx53" name="Mask" xy="0,0" size="1600,900" type="rect" fillColor="#ff000000"/>
+  </displayList>
+  <transition name="MaskShow">
+    <item time="0" type="Alpha" target="n0_wx53" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
+  <transition name="MaskHide">
+    <item time="0" type="Alpha" target="n0_wx53" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+</component>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="3"/>
+  <displayList>
+    <image id="n14_fx2l" name="BG" src="wx5322" pkg="lw2d8ik4" xy="-536,6" size="2722,900" group="n13_fx2l" alpha="0.8"/>
+    <image id="n10_fx2l" name="GreenLight" src="wx5321" pkg="lw2d8ik4" xy="990,325" pivot="0.5,0.5" size="258,256" group="n13_fx2l" color="#00ff00"/>
+    <component id="n11_fx2l" name="Btn_Certain" src="wx537" pkg="lkufxxcr" xy="657,626" group="n13_fx2l">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button icon="ui://lw2d8ik4wx531z"/>
+    </component>
+    <text id="n12_fx2l" name="Tex_KillNumber" xy="1033,336" size="105,104" group="n13_fx2l" input="true" prompt="0" maxLength="2" restrict="[0-9]" keyboardType="4" font="汉仪南宫体简" fontSize="100" color="#ff0000" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="0&#xA;">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <graph id="n15_fx2l" name="Mask" xy="0,0" size="352,900" group="n13_fx2l" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <graph id="n16_fx2l" name="Mask" xy="1248,0" size="364,900" group="n13_fx2l" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <group id="n13_fx2l" name="Group_Act" xy="-536,0" size="2721,906" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <image id="n9_fx2l" name="BlueLight" src="wx5321" pkg="lw2d8ik4" xy="346,320" pivot="0.5,0.5" size="258,256" group="n8_fx2l" color="#0000ff"/>
+    <component id="n4_fx2l" name="Btn_Save" src="wx537" pkg="lkufxxcr" xy="323,670" group="n8_fx2l">
+      <Button title="使用解药" icon="ui://lw2d8ik4wx5320"/>
+    </component>
+    <component id="n5_fx2l" name="Btn_Kill" src="wx537" pkg="lkufxxcr" xy="965,677" group="n8_fx2l">
+      <Button title="使用毒药" icon="ui://lw2d8ik4wx531z"/>
+    </component>
+    <component id="n6_fx2l" name="Btn_ToNext" src="wx537" pkg="lkufxxcr" xy="1237,79" group="n8_fx2l">
+      <Button title="跳 过" icon="ui://lk3j63suwx532"/>
+    </component>
+    <text id="n7_fx2l" name="Tex_WolfKillNumber" xy="743,517" size="133,79" group="n8_fx2l" font="ui://lk3j63suwx53g" fontSize="100" color="#00ff00" align="center" vAlign="middle" letterSpacing="-21" autoSize="none" text="12"/>
+    <group id="n8_fx2l" name="Group_Act1" xy="323,79" size="1226,689" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n3_fx2l" name="GuideMessage" src="fx2l1" xy="379,222">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearXY controller="c1" pages="1,2" values="398,70|407,71" default="379,222"/>
+    </component>
+    <component id="n0_fx2l" name="EyeClose" src="wx532" pkg="lkufxxcr" xy="647,466" hideByEditor="true"/>
+    <component id="n1_fx2l" name="EyeOpen" src="wx531" pkg="lkufxxcr" xy="642,473" hideByEditor="true"/>
+    <component id="n2_fx2l" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" locked="true" hideByEditor="true" touchable="false"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n9_fx2l" tween="true" startValue="0" endValue="180" duration="24" ease="Linear"/>
+    <item time="0" type="Rotation" target="n10_fx2l" tween="true" startValue="0" endValue="180" duration="24" ease="Linear"/>
+    <item time="24" type="Rotation" target="n9_fx2l" tween="true" startValue="180" endValue="360" duration="24" ease="Linear"/>
+    <item time="24" type="Rotation" target="n10_fx2l" tween="true" startValue="180" endValue="360" duration="24" ease="Linear"/>
+  </transition>
+</component>

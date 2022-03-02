@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1005,104">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="2"/>
+  <displayList>
+    <text id="n0_fx2l" name="Tex_Guide" xy="0,0" size="1005,104" font="汉仪南宫体简" fontSize="100" color="#ff0000" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearText controller="c1" pages="1,2,3" values="[color=#FFFF00]狼队今晚要猎杀的玩家[/color]||狼人请闭眼" default="狼人请睁眼"/>
+    </text>
+  </displayList>
+</component>

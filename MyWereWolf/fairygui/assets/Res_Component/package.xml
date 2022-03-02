@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lkufxxcr" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="wx530" name="PanelMask.xml" path="/" exported="true"/>
+    <component id="wx531" name="EyeOpen.xml" path="/" exported="true"/>
+    <component id="wx532" name="EyeClose.xml" path="/" exported="true"/>
+    <component id="wx533" name="Btn_KillNumber.xml" path="/" exported="true"/>
+    <component id="wx534" name="Btn_ChangePanel.xml" path="/" exported="true"/>
+    <component id="wx535" name="test.xml" path="/"/>
+    <component id="wx537" name="Btn_Act.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Res_Component"/>
+</packageDescription>

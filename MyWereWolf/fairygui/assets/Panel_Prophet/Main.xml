@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" bgColorEnabled="true" bgColor="#000000">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="0"/>
+  <displayList>
+    <image id="n23_gdse" name="BG" src="wx531x" pkg="lw2d8ik4" xy="-592,-3" size="2693,900" group="n27_gdse" alpha="0.7"/>
+    <graph id="n24_gdse" name="Mask" xy="0,0" size="279,900" group="n27_gdse" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <graph id="n25_gdse" name="Mask" xy="1168,-1" size="436,900" group="n27_gdse" alpha="0.5" type="rect" fillColor="#ff000000"/>
+    <component id="n9_gdse" name="n9" src="gdse3" xy="72,36" group="n21_gdse">
+      <Button title="1"/>
+    </component>
+    <component id="n10_gdse" name="n10" src="gdse3" xy="12,233" group="n21_gdse">
+      <Button title="2"/>
+    </component>
+    <component id="n11_gdse" name="n11" src="gdse3" xy="422,223" group="n21_gdse">
+      <Button title="3"/>
+    </component>
+    <component id="n12_gdse" name="n12" src="gdse3" xy="237,422" group="n21_gdse">
+      <Button title="4"/>
+    </component>
+    <component id="n13_gdse" name="n13" src="gdse3" xy="69,642" group="n21_gdse">
+      <Button title="5"/>
+    </component>
+    <component id="n14_gdse" name="n14" src="gdse3" xy="397,720" group="n21_gdse">
+      <Button title="6"/>
+    </component>
+    <component id="n15_gdse" name="n15" src="gdse3" xy="959,282" group="n21_gdse">
+      <Button title="9"/>
+    </component>
+    <component id="n16_gdse" name="n16" src="gdse3" xy="1166,441" group="n21_gdse">
+      <Button title="10"/>
+    </component>
+    <component id="n17_gdse" name="n17" src="gdse3" xy="1075,719" group="n21_gdse">
+      <Button title="12"/>
+    </component>
+    <component id="n18_gdse" name="n18" src="gdse3" xy="1350,54" group="n21_gdse">
+      <Button title="7"/>
+    </component>
+    <component id="n19_gdse" name="n19" src="gdse3" xy="1413,272" group="n21_gdse">
+      <Button title="8"/>
+    </component>
+    <component id="n20_gdse" name="n20" src="gdse3" xy="1417,639" group="n21_gdse">
+      <Button title="11"/>
+    </component>
+    <group id="n21_gdse" name="Group_Cards" xy="12,36" size="1555,834" group="n27_gdse" advanced="true" collapsed="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <component id="n26_gdse" name="Btn_ToNext" src="wx537" pkg="lkufxxcr" xy="612,767" group="n27_gdse">
+      <gearDisplay controller="c1" pages="1"/>
+      <Button title="跳 过" icon="ui://lw2d8ik4wx531t"/>
+    </component>
+    <component id="n8_gdse" name="Btn_Certain" src="wx537" pkg="lkufxxcr" xy="599,600" group="n27_gdse">
+      <gearDisplay controller="c1" pages="2"/>
+      <Button icon="ui://lw2d8ik4wx531t"/>
+    </component>
+    <component id="n28_tahk" name="Crystal" src="tahk5" xy="616,540" group="n27_gdse">
+      <gearDisplay controller="c1" pages="1"/>
+    </component>
+    <image id="n22_gdse" name="RotateLight" src="wx531y" pkg="lw2d8ik4" xy="644,638" pivot="0.55,0.1" size="226,130" group="n27_gdse">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <group id="n27_gdse" name="Group_Act" xy="-592,-3" size="2693,903" advanced="true">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </group>
+    <component id="n1_gdse" name="GuideMessage" src="gdse2" xy="269,173">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearXY controller="c1" pages="1,2" values="275,18|266,37" default="269,173"/>
+    </component>
+    <component id="n3_gdse" name="EyeOpen" src="wx531" pkg="lkufxxcr" xy="653,464" hideByEditor="true" touchable="false"/>
+    <component id="n4_gdse" name="EyeClose" src="wx532" pkg="lkufxxcr" xy="651,463" hideByEditor="true" touchable="false"/>
+    <component id="n2_gdse" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" hideByEditor="true" touchable="false"/>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n22_gdse" tween="true" startValue="0" endValue="180" duration="36" ease="Linear"/>
+    <item time="36" type="Rotation" target="n22_gdse" tween="true" startValue="180" endValue="360" duration="36" ease="Linear"/>
+  </transition>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900" bgColorEnabled="true" bgColor="#000000">
+  <displayList>
+    <image id="n5_quwk" name="n5" src="wx531b" pkg="lw2d8ik4" xy="0,0" size="1600,900" alpha="0.4" color="#ff0000"/>
+    <text id="n0_quwk" name="Tex_Sound" xy="240,224" size="412,87" font="汉仪南宫体简" fontSize="80" color="#ffff00" align="center" vAlign="middle" text="游戏音量：&#xA;">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n1_quwk" name="Tex_Language" xy="237,395" size="405,84" font="汉仪南宫体简" fontSize="80" color="#ffff00" text="语言设置："/>
+    <component id="n2_quwk" name="Btn_Return" src="wx534" pkg="lkufxxcr" xy="633,722">
+      <Button icon="ui://lw2d8ik4wx5313"/>
+    </component>
+    <component id="n3_quwk" name="Sli_Sound" src="quwk2" xy="849,243">
+      <Slider value="100" max="100"/>
+    </component>
+    <component id="n4_quwk" name="Combo_Language" src="quwk5" xy="974,405">
+      <ComboBox visibleItemCount="3" direction="down">
+        <item title="中文" value="1" icon="ui://8xlcy473quwk3"/>
+        <item title="英文" value="2" icon="ui://8xlcy473quwk3"/>
+        <item title="日文" value="3" icon="ui://8xlcy473quwk3"/>
+      </ComboBox>
+    </component>
+    <component id="n6_quwk" name="PanelMask" src="wx530" pkg="lkufxxcr" xy="0,0" hideByEditor="true" touchable="false"/>
+  </displayList>
+</component>

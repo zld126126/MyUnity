@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,150" pivot="0.5,0.5" extention="Button">
+  <controller name="c1" pages="0,BG,1,People,2,Wolf" selected="0"/>
+  <displayList>
+    <image id="n1" name="BG" src="wx530" pkg="lk3j63su" xy="0,0" size="150,150">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_gdse" name="Img_Wolf" src="wx531d" pkg="lw2d8ik4" xy="0,0" size="150,150">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n3_gdse" name="Img_Villager" src="wx531i" pkg="lw2d8ik4" xy="0,0" size="150,150">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n4_gdse" name="title" xy="0,0" size="150,150" font="ui://lk3j63suwx53g" fontSize="12" color="#ffccff" align="center" vAlign="middle" letterSpacing="-24" autoSize="none" text="12">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <movieclip id="n5_gdse" name="Anim_Light" src="wx53k" pkg="lk3j63su" xy="90,97" pivot="0.5,0.5" size="54,75"/>
+  </displayList>
+  <Button/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Size" target="n5_gdse" tween="true" startValue="156.4,225.8" endValue="54.56,75.96" duration="12"/>
+  </transition>
+</component>

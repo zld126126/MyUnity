@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="312,75" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n3_wx53" name="icon" xy="0,0" size="312,75"/>
+    <text id="n2_wx53" name="title" xy="0,0" size="312,75" font="汉仪南宫体简" fontSize="50" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="返  回"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="0.80"/>
+</component>

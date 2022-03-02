@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,176">
+  <displayList>
+    <movieclip id="n1_tahk" name="Anim_Eye" src="tahkp" pkg="lk3j63su" xy="0,0" size="300,176" playing="false"/>
+  </displayList>
+  <transition name="Hide"/>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1338,416">
+  <controller name="c1" pages="0,DayBreaking,1,DyingMessage_Safe,2,DyingMessage_DyingOne,3,DyingMessage_DyingTwo,4,Execute,5,Lastwords,6,GameOverVillagers,7,GameOverWolf" selected="4"/>
+  <displayList>
+    <text id="n1_gdse" name="Tex_GuideMessage" xy="0,0" size="1338,416" font="汉仪南宫体简" fontSize="100" color="#ffff00" align="center" vAlign="middle" ubb="true" autoSize="none" strokeColor="#000000" text="请点击要放逐的玩家号码">
+      <gearDisplay controller="c1" pages="0,1,2,3,4,5,6,7,8"/>
+      <gearText controller="c1" pages="0,1,2,3,4,6,7" values="天亮了|昨晚，[color=#00FF00]平安夜[/color]|昨晚，死亡玩家是|昨晚双死，刀前毒后|请点击要放逐的玩家号码|游戏结束&#xA;&#xA;[color=#00FF00]好人胜利[/color]|游戏结束&#xA;&#xA;[color=#FF0000]狼人胜利[/color]" default="请死亡玩家发表遗言"/>
+    </text>
+    <text id="n2_gdse" name="Tex_DyingNumberOne" xy="590,310" size="132,79" font="ui://lk3j63suwx53g" fontSize="12" color="#ff0000" align="center" vAlign="middle" letterSpacing="-22" autoSize="none" text="12">
+      <gearDisplay controller="c1" pages="2,3"/>
+      <gearXY controller="c1" pages="2,3" values="592,309|468,305" default="590,310"/>
+    </text>
+    <text id="n3_gdse" name="Tex_DyingNumberTwo" xy="734,306" size="132,79" font="ui://lk3j63suwx53g" fontSize="12" color="#ff0000" align="center" vAlign="middle" letterSpacing="-22" autoSize="none" text="1">
+      <gearDisplay controller="c1" pages="3"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n1_gdse" tween="true" startValue="0" endValue="1" duration="18"/>
+    <item time="18" type="Alpha" target="n1_gdse" tween="true" startValue="1" endValue="0" duration="18"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="Alpha" target="n1_gdse" tween="true" startValue="0" endValue="1" duration="72"/>
+  </transition>
+</component>

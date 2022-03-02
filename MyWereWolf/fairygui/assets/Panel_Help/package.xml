@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="li4ujg9k" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="wx530" name="Main.xml" path="/" exported="true"/>
+    <component id="wx531" name="Btn_HelpCard.xml" path="/"/>
+  </resources>
+  <publish name="Panel_Help"/>
+</packageDescription>

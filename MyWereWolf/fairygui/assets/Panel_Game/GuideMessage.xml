@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="955,667">
+  <controller name="c1" pages="0,HideID,1,ShowID,2,LoadGame" selected="0"/>
+  <displayList>
+    <text id="n0_quwk" name="Tex_GuideID" xy="112,26" size="904,104" font="汉仪南宫体简" fontSize="100" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="号玩家看身份">
+      <gearDisplay controller="c1" pages="0,1"/>
+      <gearXY controller="c1" pages="0,1" values="112,26|-67,24" default="112,26"/>
+      <gearText controller="c1" pages="1" values="您的身份是" default="号玩家看身份"/>
+    </text>
+    <text id="n1_quwk" name="Tex_GuideClick" xy="3,476" size="955,193" font="汉仪南宫体简" fontSize="80" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="点击卡牌看身份">
+      <gearDisplay controller="c1" pages="0,1,2"/>
+      <gearText controller="c1" pages="1,2" values="点击卡牌隐藏身份，并将手机递给下一位玩家|游戏加载中" default="点击卡牌看身份"/>
+    </text>
+    <text id="n3_quwk" name="Tex_ID" xy="637,25" size="205,104" font="汉仪南宫体简" fontSize="100" color="#ff0000" align="center" vAlign="middle" text="狼人">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n2_quwk" name="Tex_Number" xy="106,41" size="154,79" font="ui://lk3j63suwx53g" fontSize="100" color="#33ff00" align="center" vAlign="middle" letterSpacing="-15" autoSize="none" text="1&#xA;">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n1_quwk" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="12" type="Alpha" target="n1_quwk" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+</component>

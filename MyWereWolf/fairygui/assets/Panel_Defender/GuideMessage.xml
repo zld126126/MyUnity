@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="920,104">
+  <controller name="c1" pages="0,Open,1,Act1,2,Act2,3,Close" selected="3"/>
+  <displayList>
+    <text id="n0_gdse" name="n0" xy="0,0" size="920,104" font="汉仪南宫体简" fontSize="100" color="#666666" align="center" vAlign="middle" ubb="true" autoSize="none" text="守卫请闭眼">
+      <gearDisplay controller="c1" pages="0,1,2,3"/>
+      <gearText controller="c1" pages="0,1,2,3" values="守卫请睁眼|[color=#FFFF00]今晚您要守护的玩家[/color]|[color=#FFFF00]今晚您要守护的玩家[/color]|守卫请闭眼"/>
+    </text>
+  </displayList>
+</component>

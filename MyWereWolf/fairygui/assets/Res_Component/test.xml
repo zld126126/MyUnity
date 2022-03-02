@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1600,900">
+  <displayList>
+    <component id="n0_wx53" name="n0" src="wx533" xy="769,376">
+      <Button title="1"/>
+    </component>
+    <component id="n1_wx53" name="n1" src="wx534" xy="795,189">
+      <Button icon="ui://lw2d8ik4wx5315"/>
+    </component>
+    <component id="n2_wx53" name="n2" src="wx537" xy="291,375">
+      <Button icon="ui://lw2d8ik4wx531t"/>
+    </component>
+  </displayList>
+</component>
