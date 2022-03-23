@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: 338747b53ccb281438ca94866ff1d744
+timeCreated: 1507126337
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_02_L
+    100002: Arm_02_R
+    100004: Belt_02
+    100006: Head
+    100008: Helmet_02
+    100010: Jets_02
+    100012: LCalf
+    100014: LCollarbone
+    100016: Leg_02_L
+    100018: Leg_02_R
+    100020: LFoot
+    100022: LForearm
+    100024: LPalm
+    100026: LThigh
+    100028: LUpperarm
+    100030: Neck
+    100032: PalmBone001
+    100034: PalmBone001 1
+    100036: PalmBone002
+    100038: PalmBone002 1
+    100040: Pelvis
+    100042: Plane.013
+    100044: RArmCollarbone
+    100046: RArmForearm
+    100048: RArmPalm
+    100050: RArmUpperarm
+    100052: RCalf
+    100054: RFoot
+    100056: Ribcage
+    100058: RThigh
+    100060: //RootNode
+    100062: SpaceMan_Base
+    100064: SpaceMan_Clothe
+    100066: Spine1
+    100068: Spine2
+    100070: Suit_02
+    400000: Arm_02_L
+    400002: Arm_02_R
+    400004: Belt_02
+    400006: Head
+    400008: Helmet_02
+    400010: Jets_02
+    400012: LCalf
+    400014: LCollarbone
+    400016: Leg_02_L
+    400018: Leg_02_R
+    400020: LFoot
+    400022: LForearm
+    400024: LPalm
+    400026: LThigh
+    400028: LUpperarm
+    400030: Neck
+    400032: PalmBone001
+    400034: PalmBone001 1
+    400036: PalmBone002
+    400038: PalmBone002 1
+    400040: Pelvis
+    400042: Plane.013
+    400044: RArmCollarbone
+    400046: RArmForearm
+    400048: RArmPalm
+    400050: RArmUpperarm
+    400052: RCalf
+    400054: RFoot
+    400056: Ribcage
+    400058: RThigh
+    400060: //RootNode
+    400062: SpaceMan_Base
+    400064: SpaceMan_Clothe
+    400066: Spine1
+    400068: Spine2
+    400070: Suit_02
+    2300000: Arm_02_L
+    2300002: Arm_02_R
+    2300004: Helmet_02
+    2300006: Jets_02
+    2300008: Leg_02_L
+    2300010: Leg_02_R
+    2300012: Plane.013
+    2300014: Suit_02
+    3300000: Arm_02_L
+    3300002: Arm_02_R
+    3300004: Helmet_02
+    3300006: Jets_02
+    3300008: Leg_02_L
+    3300010: Leg_02_R
+    3300012: Plane.013
+    3300014: Suit_02
+    4300000: Belt_02
+    4300002: Leg_02_L
+    4300004: Leg_02_R
+    4300006: Arm_02_L
+    4300008: Helmet_02
+    4300010: Arm_02_R
+    4300012: Suit_02
+    4300014: Jets_02
+    4300016: SpaceMan_Clothe
+    4300018: Plane.013
+    4300020: SpaceMan_Base
+    7400000: Right
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Belt_02
+    13700002: SpaceMan_Base
+    13700004: SpaceMan_Clothe
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Right
+      takeName: Take 001
+      firstFrame: 840
+      lastFrame: 874
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Belt_02
+        weight: 0
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/LThigh/LCalf/Leg_02_L
+        weight: 0
+      - path: Pelvis/LThigh/LCalf/LFoot
+        weight: 1
+      - path: Pelvis/Plane.013
+        weight: 0
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/RThigh/RCalf/Leg_02_R
+        weight: 0
+      - path: Pelvis/RThigh/RCalf/RFoot
+        weight: 1
+      - path: Pelvis/Spine1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/Arm_02_L
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone001
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone002
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck/Head
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck/Head/Helmet_02
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/Arm_02_R
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone001
+          1
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone002
+          1
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/SpaceMan_Clothe
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Suit_02
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Suit_02/Jets_02
+        weight: 0
+      - path: SpaceMan_Base
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: LThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RArmCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RArmUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RArmForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RArmPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: space_man_model(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Belt_02
+      parentName: space_man_model(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Pelvis
+      parentName: space_man_model(Clone)
+      position: {x: 0.0015535207, y: 0.11612447, z: -0.012508501}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LThigh
+      parentName: Pelvis
+      position: {x: -0.0033422564, y: 0.009113309, z: 0.030992959}
+      rotation: {x: 0, y: 0.9961947, z: 0, w: 0.08715588}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LCalf
+      parentName: LThigh
+      position: {x: -0.07463435, y: 0.000000050365923, z: 0.000000057220458}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: Leg_02_L
+      parentName: LCalf
+      position: {x: -0.0000000047683715, y: 8.9406965e-10, z: 0}
+      rotation: {x: -0.00000004377216, y: 0.000000044703487, z: -0.000000048428774,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LFoot
+      parentName: LCalf
+      position: {x: -0.032773018, y: 8.9406965e-10, z: -0.0000000047683715}
+      rotation: {x: -0.06663751, y: -0.0050758296, z: -0.5470325, w: 0.8344395}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.9999995}
+    - name: Plane.013
+      parentName: Pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000008583069, y: -2.065903e-12, z: 0.00000023841858, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RThigh
+      parentName: Pelvis
+      position: {x: -0.0033424948, y: 0.009113307, z: -0.027885921}
+      rotation: {x: 0, y: -0.9961947, z: 0, w: 0.08715588}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RCalf
+      parentName: RThigh
+      position: {x: -0.0755595, y: 0.0000002580881, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.9999997}
+    - name: Leg_02_R
+      parentName: RCalf
+      position: {x: 0.0000000333786, y: -0.000000050365923, z: 0}
+      rotation: {x: -0.00000062584905, y: -0.0000007636838, z: -0.00000047683733,
+        w: 1}
+      scale: {x: 1.0000012, y: 0.9999997, z: 0.99999887}
+    - name: RFoot
+      parentName: RCalf
+      position: {x: -0.03276373, y: 0.000000017881392, z: -0.000000023841856}
+      rotation: {x: 0.062863156, y: 0.021292659, z: -0.54952353, w: 0.8328378}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: Spine1
+      parentName: Pelvis
+      position: {x: -0.008834362, y: 0.010279388, z: -0.0000000034042522}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: Spine2
+      parentName: Spine1
+      position: {x: -0.06757319, y: 1.4901161e-10, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Ribcage
+      parentName: Spine2
+      position: {x: -0.05967306, y: 0, z: 1.1368684e-15}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999946, y: 0.9999994, z: 1}
+    - name: LCollarbone
+      parentName: Ribcage
+      position: {x: 0.011719875, y: 0.007441412, z: 0.038590904}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LUpperarm
+      parentName: LCollarbone
+      position: {x: -0.032725386, y: 0.000000009536743, z: 0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: LForearm
+      parentName: LUpperarm
+      position: {x: -0.057991736, y: 0.00000001579523, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Arm_02_L
+      parentName: LForearm
+      position: {x: 0.0000007724762, y: 0.0000009965896, z: -0.0000005340576}
+      rotation: {x: -0.00000037812106, y: 0.0000015441321, z: 0.0000026074715, w: 1}
+      scale: {x: 0.99999654, y: 1.0000037, z: 0.99999964}
+    - name: LPalm
+      parentName: LForearm
+      position: {x: -0.060218476, y: -0.0000001335144, z: 0.000000095367426}
+      rotation: {x: -0.7110451, y: 0.011989076, z: 0.028568365, w: 0.70246357}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999999}
+    - name: PalmBone001
+      parentName: LPalm
+      position: {x: -0.039976805, y: 0.0004234123, z: 0.00062481523}
+      rotation: {x: -0.00000020302805, y: 0.0000005574838, z: -0.00000044517196, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999998}
+    - name: PalmBone002
+      parentName: LPalm
+      position: {x: -0.009893836, y: 0.0007727432, z: 0.016597016}
+      rotation: {x: 0.07965214, y: 0.5151944, z: 0.026169123, w: 0.85296273}
+      scale: {x: 1.000001, y: 0.9999999, z: 0.9999995}
+    - name: Neck
+      parentName: Ribcage
+      position: {x: -0.000154171, y: -0.0070814798, z: -3.3692116e-10}
+      rotation: {x: -9.975413e-15, y: 0.000000022174971, z: 0.14685808, w: 0.9891576}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.052608296, y: 0.0000000047683715, z: 0}
+      rotation: {x: 4.054773e-15, y: -0.000000022174973, z: -0.14685808, w: 0.9891576}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Helmet_02
+      parentName: Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 2.162214e-21, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RArmCollarbone
+      parentName: Ribcage
+      position: {x: 0.011719875, y: 0.007441412, z: -0.038590908}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RArmUpperarm
+      parentName: RArmCollarbone
+      position: {x: -0.032725386, y: -0.000000009536743, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+    - name: RArmForearm
+      parentName: RArmUpperarm
+      position: {x: -0.05799173, y: 0.000000015497207, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Arm_02_R
+      parentName: RArmForearm
+      position: {x: -0.00000081062313, y: -0.000001013279, z: -0.0000005149841}
+      rotation: {x: 0.00000041164867, y: -0.0000015180551, z: 0.0000026718494, w: 1}
+      scale: {x: 0.9999965, y: 1.0000037, z: 0.99999964}
+    - name: RArmPalm
+      parentName: RArmForearm
+      position: {x: -0.060218487, y: -0.00000013709068, z: -0.000000076293944}
+      rotation: {x: 0.711045, y: -0.011989027, z: 0.02856838, w: 0.7024636}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999999}
+    - name: PalmBone001 1
+      parentName: RArmPalm
+      position: {x: -0.039976824, y: 0.0004234123, z: -0.00062480866}
+      rotation: {x: 0.00000022724248, y: -0.00000048198854, z: -0.0000004270112, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999998}
+    - name: PalmBone002 1
+      parentName: RArmPalm
+      position: {x: -0.009893856, y: 0.0007727432, z: -0.016597014}
+      rotation: {x: -0.07965187, y: -0.5151944, z: 0.02616941, w: 0.8529628}
+      scale: {x: 1.0000007, y: 0.9999998, z: 0.99999964}
+    - name: SpaceMan_Clothe
+      parentName: Spine2
+      position: {x: 0.19152266, y: -0.020149102, z: 0.000000012579811}
+      rotation: {x: -6.661338e-16, y: -4.440892e-16, z: -2.9582284e-31, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Suit_02
+      parentName: Spine2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -6.661338e-16, y: -4.440892e-16, z: -2.9582284e-31, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jets_02
+      parentName: Suit_02
+      position: {x: 0.19152266, y: -0.020149102, z: 0.0000000033749312}
+      rotation: {x: -7.2164486e-16, y: -4.440892e-16, z: -3.204747e-31, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: SpaceMan_Base
+      parentName: space_man_model(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
