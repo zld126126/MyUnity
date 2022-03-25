@@ -1,6 +1,5 @@
 <GlobalConfig CodeFontSize = "22"/>
 <BreakpointList>
-  <Breakpoint State = "BreakpointActive" Filename = "XLua/Examples/00_LuaPerfectTest_XLua/Resources/LuaPerfectTest_XLua.lua.txt" LineIndex = "7"/>
   <Breakpoint State = "BreakpointActive" Filename = "XLua/Examples/00_LuaPerfectTest_XLua/Resources/LuaPerfectTest_XLua.lua.txt" LineIndex = "13"/>
 </BreakpointList>
 <WatchList/>
@@ -30,15 +29,16 @@
   Target = ""
   Replace = ""/>
 <MainWindow
-  X = "2275"
-  Y = "133"
+  X = "437"
+  Y = "134"
   Width = "1280"
   Height = "720"
-  Maximized = "true">
+  Maximized = "true"
+  LastCodeFilename = "D:/my_project/MyUnity/MyXLua_LuaPerfect/Assets/XLua/Examples/00_LuaPerfectTest_XLua/Resources/LuaPerfectTest_XLua.lua.txt">
   <DockingControl>
     <DockingNode DockingDirection = "Horizontal">
       <DockingNode DockingDirection = "None">
-        <DockingBlock Width = "440" Height = "923" DocumentStyle = "false">
+        <DockingBlock Width = "437" Height = "923" DocumentStyle = "false">
           <DockingCard
             Text = "Project"
             Tag = ""
@@ -53,10 +53,20 @@
       </DockingNode>
       <DockingNode DockingDirection = "Vertical">
         <DockingNode DockingDirection = "None">
-          <DockingBlock Width = "1461" Height = "571" DocumentStyle = "true"/>
+          <DockingBlock Width = "1464" Height = "571" DocumentStyle = "true">
+            <DockingCard
+              Text = "LuaPerfectTest_XLua.lua.txt"
+              Tag = "D:/my_project/MyUnity/MyXLua_LuaPerfect/Assets/XLua/Examples/00_LuaPerfectTest_XLua/Resources/LuaPerfectTest_XLua.lua.txt"
+              ActivePage = "true"
+              ActivateTime = "20271424"
+              CaretLineIndex = "13"
+              CaretCodeCharIndex = "0"
+              BaseX = "0"
+              BaseY = "0"/>
+          </DockingBlock>
         </DockingNode>
         <DockingNode DockingDirection = "None">
-          <DockingBlock Width = "1461" Height = "345" DocumentStyle = "false">
+          <DockingBlock Width = "1464" Height = "345" DocumentStyle = "false">
             <DockingCard
               Text = "Output"
               Tag = ""

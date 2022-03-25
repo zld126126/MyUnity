@@ -11,7 +11,4 @@ MyFPS/.idea/.idea.MyFPSDemo/.idea/.gitignore
 MyFPS/.idea/.idea.MyFPSDemo/.idea/encodings.xml
 MyFPS/.idea/.idea.MyFPSDemo/.idea/indexLayout.xml
 MyFPS/.idea/.idea.MyFPSDemo/.idea/riderModule.iml
-MyXLua_LuaPerfect/.idea/.idea.XLua_LuaPerfect/.idea/.gitignore
-MyXLua_LuaPerfect/.idea/.idea.XLua_LuaPerfect/.idea/encodings.xml
-MyXLua_LuaPerfect/.idea/.idea.XLua_LuaPerfect/.idea/indexLayout.xml
-MyXLua_LuaPerfect/.idea/.idea.XLua_LuaPerfect/.idea/riderModule.iml
+MyXLua_LuaPerfect/.idea/*
