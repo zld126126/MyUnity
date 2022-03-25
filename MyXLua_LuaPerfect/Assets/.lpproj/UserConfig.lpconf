@@ -1,0 +1,100 @@
+<GlobalConfig CodeFontSize = "22"/>
+<BreakpointList>
+  <Breakpoint State = "BreakpointActive" Filename = "XLua/Examples/00_LuaPerfectTest_XLua/Resources/LuaPerfectTest_XLua.lua.txt" LineIndex = "7"/>
+  <Breakpoint State = "BreakpointActive" Filename = "XLua/Examples/00_LuaPerfectTest_XLua/Resources/LuaPerfectTest_XLua.lua.txt" LineIndex = "13"/>
+</BreakpointList>
+<WatchList/>
+<ProjectUI>
+  <TreeState BaseX = "0" BaseY = "0" AlternativeItem = "LuaFolders#Assets#XLua#Examples#01_Helloworld">
+    <SelectedList>
+      <Selected Path = "LuaFolders#Assets#XLua#Examples#00_LuaPerfectTest_XLua#Resources#LuaPerfectTest_XLua.lua.txt"/>
+    </SelectedList>
+    <ExpandedList>
+      <Expanded Path = "LuaFolders"/>
+      <Expanded Path = "LuaFolders#Assets"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty"/>
+      <Expanded Path = "LuaFolders#Assets#ThirdParty#LuaPerfect"/>
+      <Expanded Path = "LuaFolders#Assets#XLua"/>
+      <Expanded Path = "LuaFolders#Assets#XLua#Doc"/>
+      <Expanded Path = "LuaFolders#Assets#XLua#Examples"/>
+      <Expanded Path = "LuaFolders#Assets#XLua#Examples#00_LuaPerfectTest_XLua"/>
+      <Expanded Path = "LuaFolders#Assets#XLua#Examples#00_LuaPerfectTest_XLua#Resources"/>
+    </ExpandedList>
+  </TreeState>
+</ProjectUI>
+<FindAnReplaceUI
+  Pattern = ""
+  MatchCase = "false"
+  MatchWholeWord = "false"
+  UseRegEx = "false"
+  Target = ""
+  Replace = ""/>
+<MainWindow
+  X = "2275"
+  Y = "133"
+  Width = "1280"
+  Height = "720"
+  Maximized = "true">
+  <DockingControl>
+    <DockingNode DockingDirection = "Horizontal">
+      <DockingNode DockingDirection = "None">
+        <DockingBlock Width = "440" Height = "923" DocumentStyle = "false">
+          <DockingCard
+            Text = "Project"
+            Tag = ""
+            ActivePage = "true"
+            ActivateTime = "0"/>
+          <DockingCard
+            Text = "Outline"
+            Tag = ""
+            ActivePage = "false"
+            ActivateTime = "0"/>
+        </DockingBlock>
+      </DockingNode>
+      <DockingNode DockingDirection = "Vertical">
+        <DockingNode DockingDirection = "None">
+          <DockingBlock Width = "1461" Height = "571" DocumentStyle = "true"/>
+        </DockingNode>
+        <DockingNode DockingDirection = "None">
+          <DockingBlock Width = "1461" Height = "345" DocumentStyle = "false">
+            <DockingCard
+              Text = "Output"
+              Tag = ""
+              ActivePage = "true"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Call Stack"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Locals"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Globals"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Watches"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Autos"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+            <DockingCard
+              Text = "Breakpoints"
+              Tag = ""
+              ActivePage = "false"
+              ActivateTime = "0"/>
+          </DockingBlock>
+        </DockingNode>
+      </DockingNode>
+    </DockingNode>
+  </DockingControl>
+</MainWindow>
