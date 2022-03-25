@@ -1,0 +1,33 @@
+local _, LuaDebuggee = pcall(require, "LuaDebuggee")
+if LuaDebuggee then LuaDebuggee.StartDebug("127.0.0.1", 9826) end
+
+local Speed = 10
+local GameObject_Cube = nil
+
+function start()
+	testLog()
+	--testDebugOnPanic()
+	GameObject_Cube = CS.UnityEngine.GameObject.Find("Cube")
+end
+
+function update()
+	local r = CS.UnityEngine.Vector3.up * CS.UnityEngine.Time.deltaTime * Speed
+	GameObject_Cube.transform:Rotate(r)
+end
+
+function ondestroy()
+	if LuaDebuggee then LuaDebuggee.Stop() end
+end
+
+function testLog()
+	print("I am log1, click me in the Output to jump to me!")
+	LuaDebuggee.PrintLine("I am log2, click me in the Output to jump to me!")
+end
+
+function testDebugOnPanic()
+	local errorTrigger = function()
+		local aaa = 1
+		aaa.bbb = 1
+	end	
+	xpcall(errorTrigger, LuaDebuggee.DebugOnPanic)
+end
