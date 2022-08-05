@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 2246442528
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 726d8c8ab59b23eb58c5e5fa58c89290
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 091c46a22f251c035a24c9f43ac09f4b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e25d6ed3a77268d4db84bdf9758d64c1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/Android/System.Core.dll.bytes
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/Android/System.dll.bytes
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/Android/mscorlib.dll.bytes
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/Android/HotFix.dll.bytes
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/Android/HotFix2.dll.bytes
+- Assets/Prefabs/HotUpdatePrefab.prefab
+Dependencies: []

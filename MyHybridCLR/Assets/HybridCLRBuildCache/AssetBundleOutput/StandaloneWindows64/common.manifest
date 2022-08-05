@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3536484438
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f4d2b14ee0bda3b6e16a7dc69048e8f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 091c46a22f251c035a24c9f43ac09f4b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e25d6ed3a77268d4db84bdf9758d64c1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/StandaloneWindows64/mscorlib.dll.bytes
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/StandaloneWindows64/HotFix2.dll.bytes
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/StandaloneWindows64/System.dll.bytes
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/StandaloneWindows64/HotFix.dll.bytes
+- Assets/Prefabs/HotUpdatePrefab.prefab
+- Assets/HybridCLRBuildCache/AssetBundleSourceData/StandaloneWindows64/System.Core.dll.bytes
+Dependencies: []
