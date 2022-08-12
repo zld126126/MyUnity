@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="Other" LoadType="0" Packed="False" />
+      <Resource Name="Scene" LoadType="0" Packed="False" />
+    </Resources>
+    <Assets>
+      <Asset Guid="060705c413b911543953d9417c91a9ac" ResourceName="Other" />
+      <Asset Guid="34b658024cc5f76449d02bdae13ff52f" ResourceName="Other" />
+      <Asset Guid="3e4520f3c22a6ab438032e45f0e7a926" ResourceName="Scene" />
+      <Asset Guid="47797eeee478a234aaac16cd49cdc784" ResourceName="Other" />
+      <Asset Guid="4ad818dac436cb44b9b60071b552f639" ResourceName="Scene" />
+      <Asset Guid="82cd236c2a0b3534bb1779d75eb9b983" ResourceName="Other" />
+      <Asset Guid="877ea17bee2d9ce448f6af1ecc82a8a3" ResourceName="Other" />
+      <Asset Guid="881e9d8c0c73094439a55f73d9bcb598" ResourceName="Other" />
+      <Asset Guid="93f2e820aa5de5646a1a25f88c783914" ResourceName="Scene" />
+      <Asset Guid="acd37981bd25e9f4f931c015ddc20463" ResourceName="Scene" />
+      <Asset Guid="b56d6d40cc42f95479a02a346d6e63d4" ResourceName="Other" />
+      <Asset Guid="b96c11ed27540e7488d96c3b1d51397e" ResourceName="Other" />
+      <Asset Guid="ccd97cf9a4b9c8d4499ca85d143b24b2" ResourceName="Scene" />
+      <Asset Guid="d711854be648971499b83c8ac71dae5a" ResourceName="Other" />
+      <Asset Guid="f5a0595f31cf60d41b3a5adced0cd9be" ResourceName="Other" />
+      <Asset Guid="fb2999fde27b8c842ae3b90d2fc9c81b" ResourceName="Other" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>
