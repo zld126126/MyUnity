@@ -1,0 +1,20 @@
+{
+    "name": "Builtin",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f56878d45a5d6504fa8f317858a62e22",
+        "GUID:363c5eb08ff8e6a439b85e37b8c20d96",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:2bb5a35867f962e4ea387fd46d4b04cd",
+        "GUID:a2d8a19598eca814496b089021d08d60"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

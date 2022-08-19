@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="HotFixDlls" LoadType="0" Packed="False" />
+      <Resource Name="Scene" LoadType="0" Packed="False" />
+    </Resources>
+    <Assets>
+      <Asset Guid="38b9cec4b49560646b1e02d38cd9ca25" ResourceName="HotFixDlls" />
+      <Asset Guid="62db7c43a9c0a7a4893e54607f869080" ResourceName="HotFixDlls" />
+      <Asset Guid="89ab309c30e4750448ad7ba7cf3400e6" ResourceName="HotFixDlls" />
+      <Asset Guid="9b88741ee599de14da3b0bff84e32e79" ResourceName="HotFixDlls" />
+      <Asset Guid="b48cae05b07323848a934a4bf55d08d7" ResourceName="Scene" />
+      <Asset Guid="da107ae9236cc3142b53df7a86b196f5" ResourceName="Scene" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>

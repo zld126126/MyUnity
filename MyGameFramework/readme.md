@@ -10,4 +10,8 @@
 > TODO 对象池替换
 
 ## V3-热更版本(华佗插件)
-> TODO 把V2的项目改成热更
+> GameFramework+HybirdCLR
+> 只是接入了GF+Huatuo
+
+## TODO V4-V2版本改为热更版本
+> TODO 全项目GF --> 全项目GF+Huatuo
