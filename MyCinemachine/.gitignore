@@ -1,0 +1,16 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uildPC/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/HybridCLRData/hybridclr_repo/
+/HybridCLRData/il2cpp_plus_repo/
+/HybridCLRData/LocalIl2CppData/
+/.idea/
