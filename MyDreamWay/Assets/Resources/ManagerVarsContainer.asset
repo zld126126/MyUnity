@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3907cb6284b0dea4ea8034f831027703, type: 3}
+  m_Name: ManagerVarsContainer
+  m_EditorClassIdentifier: 
+  bgThemeSpriteList:
+  - {fileID: 21300000, guid: 9c7f8abaceea58e4db628c3935ed7c4a, type: 3}
+  - {fileID: 21300000, guid: 5feddf0396f8fd842b6a2034a343e884, type: 3}
+  - {fileID: 21300000, guid: 274864b118ac4f54589e32e7035cd77f, type: 3}
+  - {fileID: 21300000, guid: 81cb795749aefac4ea7663bc3f7f71fb, type: 3}
+  platformThemeSpriteList:
+  - {fileID: 21300002, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300012, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300004, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300000, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  skinSpriteList:
+  - {fileID: 21300000, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300004, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300008, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300012, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  characterSkinSpriteList:
+  - {fileID: 21300002, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300006, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300010, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  - {fileID: 21300014, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
+  characterPre: {fileID: 1509835272556102, guid: b47bb687b1f44bc4fae186f25c282470,
+    type: 2}
+  skinChooseItemPre: {fileID: 1821422943329126, guid: 31337478ab45e824fb96aa8b4d5b9e47,
+    type: 2}
+  skinNameList:
+  - "\u76CE\u683C\u9C81\u4EBA"
+  - "\u5FCD\u8005"
+  - "\u970D\u6BD4\u7279\u4EBA"
+  - "\u5C0F\u50F5\u5C38"
+  skinPrice: 01000000020000000300000014000000
+  normalPlatformPre: {fileID: 1707789333618926, guid: 6463255dbe7d82a4dafa5afe8639f1b5,
+    type: 2}
+  commonPlatformGroup:
+  - {fileID: 1718202181510176, guid: 03822589b3646994198e9bc0f7842616, type: 2}
+  - {fileID: 1060829081277170, guid: 911f5eddba9f9a547a36f873855154d1, type: 2}
+  - {fileID: 1862529822596274, guid: 77d6754891a12a94ba01a3b658021ec3, type: 2}
+  - {fileID: 1505930955668414, guid: 530fc684d95be154a906273ddaa2f96d, type: 2}
+  grassPlatformGroup:
+  - {fileID: 1189566386295524, guid: 7cff1ef5dba437c469dfe6f84ec04f5c, type: 2}
+  - {fileID: 1552161325273618, guid: 0268eb9dbc42fef429b565ca74b7b3b1, type: 2}
+  winterPlatformGroup:
+  - {fileID: 1370544064376614, guid: 1ca84a38f735ec84ba5ca2a31fc441a5, type: 2}
+  - {fileID: 1989976659917776, guid: 2b64d0d0a0d0d6c468f58d246222415b, type: 2}
+  - {fileID: 1648357431825086, guid: 4093d62a5e76d5743a4222f96b4a83b7, type: 2}
+  spikePlatformLeft: {fileID: 1307385245424574, guid: 1218ee35c8e636a449e5a21e6ab1d3bd,
+    type: 2}
+  spikePlatformRight: {fileID: 1147806299915752, guid: 18add40332af93a4aa72d8c27d92f639,
+    type: 2}
+  deathEffect: {fileID: 1347158072813704, guid: ca27b5001907967438cdb281f0849b8e,
+    type: 2}
+  diamondPre: {fileID: 1540593330715708, guid: b52ab2e147cffb744acec4ece727f8e5, type: 2}
+  nextXPos: 0.554
+  nextYPos: 0.645
+  jumpClip: {fileID: 8300000, guid: a07e7d5471e1e064fba0717467121bcc, type: 3}
+  fallClip: {fileID: 8300000, guid: 2c7dc4466a66a8744a217ad78d143749, type: 3}
+  hitClip: {fileID: 8300000, guid: 58036858fa184e44cbeb01894c87e6fa, type: 3}
+  diamondClip: {fileID: 8300000, guid: e86d628ae2bb99c43805e503b83ce21e, type: 3}
+  buttonClip: {fileID: 8300000, guid: 43f93bf9979e34d46a862c1fe448a414, type: 3}
+  musicOn: {fileID: 21300000, guid: 95b20d8a0bda8324bb68c78c9e50479c, type: 3}
+  musicOff: {fileID: 21300002, guid: 95b20d8a0bda8324bb68c78c9e50479c, type: 3}
